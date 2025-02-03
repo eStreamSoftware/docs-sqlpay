@@ -34,7 +34,7 @@ After manager creates a gift, users will receive notification regarding the new 
 | **Clear** | Clears all content on the current page.                                                            |    -     |
 | **Next** |  Navigates to the previous page.                                                             |    -     |
 
-3. Gift Redeemption Criteria
+3. Gift Redemption Criteria
 
 ![gift](../../../../static/img/integration/vision/gift/addGiftStep2.png)
 

@@ -4,21 +4,27 @@ sidebar_position: 5
 
 # Duplication
 
+Duplication allows managers to recreate a previously created task, including deleted missions, without needing to re-enter the mission details manually.
+
 :::info[Note]
 
 This feature is only available to **manager**.
 
 :::
 
-![duplication](../../../../../static/img/integration/vision/mi_creation/d-1.png)
+## Mission Card
 
-## 1. **Back Button**
+The mission card displays key details of the mission, including the Title, Created Date, Duration, and Members. Pressing the card allows you to create a new mission with the same details duplicated.
 
-This button will direct you back to [**Manage Task**](../task.md) page.
+![duplication mission card](../../../../../static/img/integration/vision/mi_creation/d-3.png)
 
-## 2. **Filter**
+- ![target](../../../../../static/img/integration/vision/mi_creation/d-3-target.png) representing as **Target**
+- ![assignment](../../../../../static/img/integration/vision/mi_creation/d-3-assignment.png) representing as **Assignment**
+- ![quest](../../../../../static/img/integration/vision/mi_creation/d-3-quest.png) representing as **Quest**
 
-This button allow you to filter your recent mission. The duplicated mission can be filtered by Status and Type:
+## Filter
+
+The filter button allow you to filter your recent mission. The duplicated mission can be filtered by Status and Type:
 
 **Status:**
 - Show only deleted
@@ -31,22 +37,8 @@ This button allow you to filter your recent mission. The duplicated mission can 
 
 ![duplication filter](../../../../../static/img/integration/vision/mi_creation/d-2.png)
 
-### 2.1 Show only deleted mission
+### Show only deleted mission
 
 By default, the duplication page in SQL Vision displays only missions that have not been deleted. If you need to search for deleted missions, you can do so by using the filter function. The filter function allows you to specifically display missions that have been marked as deleted.
 
 ![duplication show only deleted](../../../../../static/img/integration/vision/mi_creation/d-2.1.png)
-
-## 3. **Search**
-
-The search allow you to search for your desired mission according to the mission title.
-
-## 4. **Mission Card**
-
-The mission card displays key details of the mission, including the Title, Created Date, Duration, and Members. Pressing the card allows you to create a new mission with the same details duplicated.
-
-![duplication mission card](../../../../../static/img/integration/vision/mi_creation/d-3.png)
-
-- `1` Icon representing as **Target**
-- `2` Icon representing as **Assignment**
-- `3` Badge representing as **Quest**

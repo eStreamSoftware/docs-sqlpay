@@ -10,7 +10,7 @@ This feature is only available to **manager** and **admin**.
 
 :::
 
-To edit a mission, go to **Main Dashboard > Manage Task > press on a mission card > press Edit Button**. 
+To edit a mission, go to **Main Dashboard | Manage Task | press on a mission card | press Edit Button**. 
 
 ![edit task](../../../../../static/img/integration/vision/mi_creation/e-1.png)
 

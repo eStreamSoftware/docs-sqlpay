@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Target
+# Create Target
 
 Target is a quantitative mission (countable data). E.g. Sales Target, Total new users.
 
@@ -18,29 +18,30 @@ This feature is only available to **manager**.
 
 | Properties                   | Description                                                                        | Note     |
 |:-----------------------------|:-----------------------------------------------------------------------------------|:--------:|
-| **1.1 Title**                | The title of the mission.                                                          | Required |
-| **1.2 Description**          | A detailed description of the mission.                                             | Required |
-| **1.3 Start Date**           | The date when the mission begins. The start date must be today or a future date.   | Required |
-| **1.4 End Date**             | The date when the mission ends. The end date must be later than the start date.    | Required |
-| **1.5 Clear**                | Clears all content on the current page.                                            | -        |
-| **1.6 Next**                 | Navigates to the next page.                                                        | -        |
+| **Title**                | The title of the mission.                                                          | Required |
+| **Description**          | A detailed description of the mission.                                             | Required |
+| **Start Date**           | The date when the mission begins. The start date must be today or a future date.   | Required |
+| **End Date**             | The date when the mission ends. The end date must be later than the start date.    | Required |
+| **Clear**                | Clears all content on the current page.                                            | -        |
+| **Next**                 | Navigates to the next page.                                                        | -        |
 
 ## Step 2 - Target and Rewards
 
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.png)
 
-| Properties                                 | Description                                                                              | Note         | 
-|:-------------------------------------------|:-----------------------------------------------------------------------------------------|:------------:| 
-| **[2.1 Grouping Type](#21-grouping-type)** | Section to select the target grouping type, either *Individual* or *Team*.               | Required     | 
-| **[2.2 Strategy](#22-strategy)**           | Section to select the target strategy, with options predefined in Company Configuration. | Required     | 
-| **[2.3 Condition](#23-condition)**         | Section to select the target condition, such as *Between* or *More than*.                | Required     | 
-| **[2.4 Target and Rewards](#24-target-and-rewards)**| Section to enter details about the targets and their associated rewards.        | At least one | 
-| **[2.5 Payment By](#25-payment-by)**       | Section to select the payment method and specify the payout month.                       | Required     | 
-| **2.6 Clear**                              | Clears all content on the current page.                                                  | -            | 
-| **2.7 Back**                               | Navigates to the previous page.                                                          | -            | 
-| **2.8 Next**                               | Navigates to the next page.                                                              | -            | 
 
-### 2.1 Grouping Type
+| Properties                          | Description                                                                              | Note         | 
+|:------------------------------------|:-----------------------------------------------------------------------------------------|:------------:| 
+| **[Grouping Type](#grouping-type)** | Section to select the target grouping type, either *Individual* or *Team*.               | Required     | 
+| **[Strategy](#strategy)**           | Section to select the target strategy, with options predefined in Company Configuration. | Required     | 
+| **[Condition](#condition)**         | Section to select the target condition (e.g., *Between*, *More than*).                   | Required     | 
+| **[Target and Rewards](#target-and-rewards)**| Section to enter details about the targets and their associated rewards.        | At least one | 
+| **[Payment By](#payment-by)**       | Section to select the payment method and specify the payout month.                       | Required     | 
+| **Clear**                           | Clears all content on the current page.                                                  | -            | 
+| **Back**                            | Navigates to the previous page.                                                          | -            | 
+| **Next**                            | Navigates to the next page.                                                              | -            | 
+
+### Grouping Type
 
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.1.png)
 
@@ -71,11 +72,11 @@ To set up a team target, create two identical missions: one with the **Individua
 
 :::
 
-### 2.2 Strategy
+### Strategy
 
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.2.png)
 
-**Strategy** refers to the formula that helps managers and the application determine which specific target a particular mission belongs to. This formula enables the application to accurately retrieve the target amount from the SQL Account. For more details, see [**Linking to SQL Account | Strategy**](../linking-to-account.md#strategy).
+**Strategy** refers to the formula that helps managers and the application determine which specific target a particular mission belongs to. This formula enables the application to accurately retrieve the target amount from the SQL Account. For more details, see [**Linking to SQL Account | Strategy**](../../linking-to-account.md#strategy).
 
 :::tip Example Scenario
 
@@ -89,7 +90,7 @@ Suppose you’re managing a Sales Department and want to track Q1 sales targets:
 
 :::
 
-### 2.3 Condition
+### Condition
 
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.3.png)
 
@@ -104,8 +105,6 @@ The "Between" condition is designed to allocate rewards based on an employee’s
 
 It is essential to ensure the upper limit (Y) of one target matches the lower limit (X) of the subsequent target to ensure continuity and avoid gaps.
 
-Example:
-
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example.png)
 
 1. If an employee achieves **RM15,000**, the employee will fall in **Target 1** and receive **2%** reward.
@@ -117,8 +116,6 @@ The "More Than" condition is used to grant rewards when an employee surpasses a 
 
 - Each reward is granted only **once**, regardless of how far the employee's achievement exceeds the target.
 - Achieving a higher target **excludes rewards for lower targets**, ensuring that only the highest applicable reward is granted.
-
-Example:
 
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example2.png)
 
@@ -132,8 +129,6 @@ The "Less Than" condition is designed to grant rewards when an employee achieves
 - Each reward is granted only **once**, based on the smallest qualifying target achieved.
 - Achieving a lower target amount **excludes rewards for higher targets**.
 
-Example:
-
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example3.png)
 
 1. If an employee have **2 return stock**, they will receive **RM3,000 & 10,000 coins** because their performance is **below 3**, which excludes the second target reward.
@@ -145,8 +140,6 @@ The "More Than and Equal" condition grants rewards when an employee’s achievem
 
 - Each reward is granted only **once**, corresponding to the highest applicable target achieved.
 - Achieving a higher target automatically **excludes rewards for lower targets**.
-
-Example:
 
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example4.png)
 
@@ -160,37 +153,24 @@ The "Less Than and Equal" condition is applied to reward employees who achieve r
 - Each reward is granted only **once**, based on the smallest qualifying target achieved.
 - Achieving a smaller target automatically **excludes rewards for higher targets**.
 
-Example:
-
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example5.png)
 
 1. If an employee has **3** return stock, they will receive **RM3,000 & 10,000 coins** because their performance is **3 or less**, which excludes rewards for any higher targets.
 2. If an employee has **4** return stock, they will receive **RM1,000 & 5,000 coins** because their performance is **10 or less but above 3**, making them ineligible for Target 1's reward.
 
-### 2.4 Target and Rewards
+### Target and Rewards
 
 ![target](../../../../../static/img/integration/vision/mi_creation/t-2.4.png)
 
-#### 2.4.1 Target
-    - Text field to input the target amount. (Note: Only the **Between** condition will have two text fields.)
 
-#### 2.4.2 Reward
-   - Text field to enter the rewards available to the achievers of the particular target.
-   - There are 3 types of rewards:
-      - **Percentage (%):**  
-         A percentage of the target amount awarded to the members (e.g., 2%).
-      - **Cash (RM):**  
-         Commission or allowance provided through the SQL Account on the payout date.
-      - **Coins:**  
-         Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../gift/introduction.md).
+| Properties  | Description                                                                                              |
+|-------------|----------------------------------------------------------------------------------------------------------|
+| **Target**  | Text field to input the target amount. (Note: Only the **Between** condition will have two text fields.) |
+| **Rewards** | Text field to enter the rewards available to the achievers of the particular target. There are 3 types of rewards: <br/> &nbsp;&nbsp; 1. **Percentage (%):** A percentage of the target amount awarded to the members (e.g., 2%). <br/> &nbsp;&nbsp; 2. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 3. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../gift/introduction.md). |
+| **Add**     | Adds a new target along with its respective rewards.                                                     |
+| **Delete**  | Deletes a specific target and its associated rewards.                                                    |
 
-#### 2.4.3 Add
-    - Adds a new target along with its respective rewards.
-
-#### 2.4.4 Delete
-    - Deletes a specific target and its associated rewards.
-
-### 2.5 Payment By
+### Payment By
 
 :::info[Note]
 
@@ -231,21 +211,11 @@ All 4 combinations can be created in **[Add Members](#step-3---add-members)** in
 
 ![assignment](../../../../../static/img/integration/vision/mi_creation/t-3.png)
 
-| Properties                  | Description                                                              | 
-|:----------------------------|:-------------------------------------------------------------------------|
-| **3.1 Search**              | Allows you to search for employees by their names.                       | 
-| **[3.2 Filter](#32-filter)**| Allow you to filter and sort the employee list.                          | 
-| **3.3 Select All**          | Allow you to select all employees at once.                               |
-| **3.4 Make Quest**          | Converts your mission into a Quest. See more in [**quest**](quest).      |
-| **3.5 Back**                | Navigates to the previous page.                                          |
-| **3.6 Create**              | Creates the mission.                                                     |
-
-#### 3.2 Filter
-
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-3.2.png)
-
-The employee list can be filtered and sort by:
-
-- Branch
-- Department
-- HR Group
+| Properties              | Description                                                              | 
+|:------------------------|:-------------------------------------------------------------------------|
+| **Search**              | Allows you to search for employees by their names.                       | 
+| **[Filter](assignment#filter)**   | Allow you to filter and sort the employee list.                | 
+| **Select All**          | Allow you to select all employees at once.                               |
+| **Make Quest**          | Converts your mission into a Quest. See more in [**quest**](quest).      |
+| **Back**                | Navigates to the previous page.                                          |
+| **Create**              | Creates the mission.                                                     |
