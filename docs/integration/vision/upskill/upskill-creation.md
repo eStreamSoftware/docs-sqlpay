@@ -1,11 +1,11 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # Upskill Creation
 ## 1. Creation Steps
 ### Step 1 - Course Information
-![Course Info Diagram](../../../static/img/integration/vision/upskillCreation/step1_courseInfo.png)
+![Course Info Diagram](../../../../static/img/integration/vision/upskillCreation/step1_courseInfo.png)
 
 | <div align="center">Properties</div>          | <div align="center">Description</div>     | Required | <div align="center">Note</div> |
 |:----------------------------------------------|:------------------------------------------|:--------:|:----|
@@ -21,15 +21,15 @@ sidebar_position: 5
 - **Tutor** is the employee responsible for giving lessons and providing guidance throughout the learning process in the course. 
 - There will be only **one** lead tutor in every course. 
 
-![Add Tutor Diagram](../../../static/img/integration/vision/upskillCreation/step1_addTutor.png)
-![Add Multiple Tutors Diagram](../../../static/img/integration/vision/upskillCreation/step1_addMultipleTutor.png)
+![Add Tutor Diagram](../../../../static/img/integration/vision/upskillCreation/step1_addTutor.png)
+![Add Multiple Tutors Diagram](../../../../static/img/integration/vision/upskillCreation/step1_addMultipleTutor.png)
 
 <br/>
 #### 1.4 Assistant Tutor
 - **Assistant Tutor** plays a role in supporting the lead tutor in completing the course smoothly. 
 - There can be **multiple** assistant tutors in every course. 
 
-![Add Assistant Tutors Diagram](../../../static/img/integration/vision/upskillCreation/step1_addAssistant.png)
+![Add Assistant Tutors Diagram](../../../../static/img/integration/vision/upskillCreation/step1_addAssistant.png)
 
 
 
@@ -44,7 +44,7 @@ sidebar_position: 5
 
 <br/>
 ### Step 2 - Sessions Information
-![Session Info Diagram](../../../static/img/integration/vision/upskillCreation/step2_sessionInfo.png)
+![Session Info Diagram](../../../../static/img/integration/vision/upskillCreation/step2_sessionInfo.png)
 | <div align="center">Properties</div> | <div align="center">Description</div> | <div align="center">Note</div> |
 |:-------------------------------------|:--------------------------------------| :----------------------------- |
 | **2.1 Start & End Date**             | Display the start date and end date of the course which is determined by first and last session's date.                                            | - |
@@ -56,7 +56,7 @@ sidebar_position: 5
 
 <br/>
 #### 2.3 Session Details
-![Session Details Diagram](../../../static/img/integration/vision/upskillCreation/step2_sessionInfoDetail.png)
+![Session Details Diagram](../../../../static/img/integration/vision/upskillCreation/step2_sessionInfoDetail.png)
 | <div align="center">Properties</div> | <div align="center">Description</div>| <div align="center">Required</div>| <div align="center">Note</div> |
 |:--------------------------|:--------------------------------------|:-:|:------------------------------------|
 | **2.3.1 Title**           | The title of the session.             | ✓ | - |
@@ -79,7 +79,7 @@ sidebar_position: 5
 
 <br/>
 ### Step 3 - Rewards Information
-![Rewards Info Diagram](../../../static/img/integration/vision/upskillCreation/step3_rewardInfo.png)
+![Rewards Info Diagram](../../../../static/img/integration/vision/upskillCreation/step3_rewardInfo.png)
 
 | <div align="center">Properties</div> | <div align="center">Description</div>     | Required | <div align="center">Note</div> |
 |:-------------------------------------|:------------------------------------------|:--------:|:----|
@@ -95,7 +95,7 @@ sidebar_position: 5
 - **Completion-based course:** There is only **one** completion reward for the entire course.
 - **Session-based course:** There are **multiple** session rewards. Each session will have their respective session rewards. 
 
-![Rewards Info Diagram](../../../static/img/integration/vision/upskillCreation/step3_sessionReward.png)
+![Rewards Info Diagram](../../../../static/img/integration/vision/upskillCreation/step3_sessionReward.png)
 
 
 
@@ -108,7 +108,7 @@ sidebar_position: 5
 
 <br/>
 ### Step 4 - Participants Information
-![Participant Info Diagram](../../../static/img/integration/vision/upskillCreation/step4_ParticipantInfo.png)
+![Participant Info Diagram](../../../../static/img/integration/vision/upskillCreation/step4_ParticipantInfo.png)
 | <div align="center">Properties</div> | <div align="center">Description</div> | <div align="center">Note</div> |
 |:-----------------------------|:-----------------------------------------------------------------------------------|:---------|
 | **4.1 Is Public**     | Determine whether this course is public or private. | **On:**<br/>Public course.<br/><br/>**Off:**<br/>Private course.<br/><br/>To know more about public and private course, [<u> click here</u>](upskill.md#4-course-privacy).
@@ -140,7 +140,7 @@ If the is public switch is on, the maximum pax, branch, department and HR group 
 If a course is public, the manager can manually add participants who do not belong to the specified branches, departments, or HR groups.
 :::
 
-![Public Switch Diagram](../../../static/img/integration/vision/upskillCreation/step4_IsPublic.png)
+![Public Switch Diagram](../../../../static/img/integration/vision/upskillCreation/step4_IsPublic.png)
 
 
 
@@ -165,9 +165,9 @@ Tutor and assistants cannot edit any rewards-related field.
 
 #### **Manager:**  
 
-![Manager Edit Course Diagram](../../../static/img/integration/vision/upskillCreation/editCourse_mgr.png)
+![Manager Edit Course Diagram](../../../../static/img/integration/vision/upskillCreation/editCourse_mgr.png)
 
 #### **Tutor & Assistants:** 
 
-![Tutor Assistant Edit Course Diagram](../../../static/img/integration/vision/upskillCreation/editCourse_tutorAsst.png)
+![Tutor Assistant Edit Course Diagram](../../../../static/img/integration/vision/upskillCreation/editCourse_tutorAsst.png)
 

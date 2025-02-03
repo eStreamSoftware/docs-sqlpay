@@ -14,7 +14,7 @@ This feature is only available to **manager**.
 
 ## Step 1 - Assignment Details
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-1.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-1.png)
 
 
 | Properties                   | Description                                                                        | Note     |
@@ -31,11 +31,11 @@ This feature is only available to **manager**.
 
 Select a **Project**, **Job**, and **Task** from the dropdown. If you leave any of these fields set to **(None)**, the Manager's Project, Job, and Task will be used in the SQL Payroll.
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-1.3.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-1.3.png)
 
 ## Step 2 - Milestone and Rewards
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-2.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.png)
 
 | Properties                                          | Description                                                               | Note         |
 |:----------------------------------------------------|:--------------------------------------------------------------------------|:------------:|
@@ -49,7 +49,7 @@ Select a **Project**, **Job**, and **Task** from the dropdown. If you leave any 
 
 ### 2.1 Milestone and Rewards
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-2.1.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.1.png)
 
 #### 2.1.1 Milestones X
    - Text field to input the percentage of the milestone (e.g., 20%, 100%).
@@ -75,7 +75,7 @@ Select a **Project**, **Job**, and **Task** from the dropdown. If you leave any 
 
 **Consultants** are employees responsible for providing guidance on a particular mission. They do not complete the mission themselves.
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-2.2.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.2.png)
 
 #### 2.2.1 Consultants
    - A list of consultants associated with the specific rewards.
@@ -83,7 +83,7 @@ Select a **Project**, **Job**, and **Task** from the dropdown. If you leave any 
 #### 2.2.2 Add Consultant
    - Button to add a consultant, which navigates to the Select Consultant page.
    
-   ![assignment](../../../../static/img/integration/vision/mi_creation/a-2.2.2.png)
+   ![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.2.2.png)
 
    - Press on an employee to designate them as a consultant.
    - To make a consultant an Admin as well, long-press on the employee to view a pop-up menu and select Add Admin.
@@ -102,7 +102,7 @@ The payment method applies only to **Cash**. All coins will be paid immediately 
 
 :::
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-2.3.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.3.png)
 
 There are two types of payment methods:
 
@@ -117,7 +117,7 @@ There are two types of payment methods:
 
 ### 2.4 Bonus
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-2.4.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.4.png)
 
 #### 2.4.1 Description
    - Text field to input a description of the bonus (e.g., extra points that you hope the employee can achieve, though it is not mandatory).
@@ -149,7 +149,7 @@ There are 4 combination of members that can be created in Assignment:
 
 The *Normal Member* and *Admin* can be created in **[Add Members](#step-3---add-members)** in Step 3, on the other hand the *Consultant* and *Consultant and Admin* combination can be created in **[Consultant Reward](#22-consultant-rewards)** in Step 2.
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-3.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-3.png)
 
 | Properties                  | Description                                                              | 
 |:----------------------------|:-------------------------------------------------------------------------|
@@ -162,7 +162,7 @@ The *Normal Member* and *Admin* can be created in **[Add Members](#step-3---add-
 
 #### 3.2 Filter
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-3.2.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-3.2.png)
 
 The employee list can be filtered and sort by:
 

@@ -14,7 +14,7 @@ This feature is only available to **manager**.
 
 ## Step 1 - Target Details
 
-![target](../../../../static/img/integration/vision/mi_creation/t-1.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-1.png)
 
 | Properties                   | Description                                                                        | Note     |
 |:-----------------------------|:-----------------------------------------------------------------------------------|:--------:|
@@ -27,7 +27,7 @@ This feature is only available to **manager**.
 
 ## Step 2 - Target and Rewards
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.png)
 
 | Properties                                 | Description                                                                              | Note         | 
 |:-------------------------------------------|:-----------------------------------------------------------------------------------------|:------------:| 
@@ -42,7 +42,7 @@ This feature is only available to **manager**.
 
 ### 2.1 Grouping Type
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.1.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.1.png)
 
 There are two types of **Grouping Types**:
 
@@ -73,7 +73,7 @@ To set up a team target, create two identical missions: one with the **Individua
 
 ### 2.2 Strategy
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.2.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.2.png)
 
 **Strategy** refers to the formula that helps managers and the application determine which specific target a particular mission belongs to. This formula enables the application to accurately retrieve the target amount from the SQL Account. For more details, see [**Linking to SQL Account | Strategy**](../linking-to-account.md#strategy).
 
@@ -91,7 +91,7 @@ Suppose you’re managing a Sales Department and want to track Q1 sales targets:
 
 ### 2.3 Condition
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.3.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.3.png)
 
 **Condition** specifies the criteria for calculating target rewards.
 
@@ -106,7 +106,7 @@ It is essential to ensure the upper limit (Y) of one target matches the lower li
 
 Example:
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.3-example.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example.png)
 
 1. If an employee achieves **RM15,000**, the employee will fall in **Target 1** and receive **2%** reward.
 2. If an employee achieves **RM25,000**, the employee will fall in **Target 2** and receive **3%** reward.
@@ -120,7 +120,7 @@ The "More Than" condition is used to grant rewards when an employee surpasses a 
 
 Example:
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.3-example2.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example2.png)
 
 1. If an employee achieves **RM15,000**, they will receive **2%** reward because their achievement **exceeds RM10,000 but does not surpass RM20,000**.
 2. If an employee achieves **RM25,000**, they will receive **3%** reward because their achievement **exceeds RM20,000**, which excludes the reward for the lower target (2% Reward).
@@ -134,7 +134,7 @@ The "Less Than" condition is designed to grant rewards when an employee achieves
 
 Example:
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.3-example3.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example3.png)
 
 1. If an employee have **2 return stock**, they will receive **RM3,000 & 10,000 coins** because their performance is **below 3**, which excludes the second target reward.
 2. If an employee have **4 return stock**, they will receive **RM1,000 & 5,000 coins** bacause their performance is **below 10 but above or equal 3**, therfore not qualify with the reward in Target 1.
@@ -148,7 +148,7 @@ The "More Than and Equal" condition grants rewards when an employee’s achievem
 
 Example:
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.3-example4.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example4.png)
 
 1. If an employee achieves **5 new customers**, they will receive **RM1,000 & 5,000 coins** because their achievement is **5 or more customers** but does not meet the next threshold of 10 or more customers.
 2. If an employee achieves **12 new customers**, they will receive **RM3,000 and 10,000 coins** because their achievement is **10 or more customers**, which excludes first target rewards.
@@ -162,14 +162,14 @@ The "Less Than and Equal" condition is applied to reward employees who achieve r
 
 Example:
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.3-example5.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example5.png)
 
 1. If an employee has **3** return stock, they will receive **RM3,000 & 10,000 coins** because their performance is **3 or less**, which excludes rewards for any higher targets.
 2. If an employee has **4** return stock, they will receive **RM1,000 & 5,000 coins** because their performance is **10 or less but above 3**, making them ineligible for Target 1's reward.
 
 ### 2.4 Target and Rewards
 
-![target](../../../../static/img/integration/vision/mi_creation/t-2.4.png)
+![target](../../../../../static/img/integration/vision/mi_creation/t-2.4.png)
 
 #### 2.4.1 Target
     - Text field to input the target amount. (Note: Only the **Between** condition will have two text fields.)
@@ -198,7 +198,7 @@ The payment method applies only to **Cash**. All coins will be paid immediately 
 
 :::
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-2.3.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.3.png)
 
 There are two types of payment methods:
 
@@ -229,7 +229,7 @@ There are 4 combination of members that can be created in Target:
 
 All 4 combinations can be created in **[Add Members](#step-3---add-members)** in Step 3.
 
-![assignment](../../../../static/img/integration/vision/mi_creation/t-3.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/t-3.png)
 
 | Properties                  | Description                                                              | 
 |:----------------------------|:-------------------------------------------------------------------------|
@@ -242,7 +242,7 @@ All 4 combinations can be created in **[Add Members](#step-3---add-members)** in
 
 #### 3.2 Filter
 
-![assignment](../../../../static/img/integration/vision/mi_creation/a-3.2.png)
+![assignment](../../../../../static/img/integration/vision/mi_creation/a-3.2.png)
 
 The employee list can be filtered and sort by:
 
