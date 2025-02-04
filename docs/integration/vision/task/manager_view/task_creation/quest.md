@@ -12,7 +12,7 @@ This feature is only available to **manager**.
 
 :::
 
-![quest](../../../../../static/img/integration/vision/mi_creation/q.png)
+![quest](../../../../../../static/img/integration/vision/mi_creation/q.png)
 
 | Properties                | Description                                                                   | 
 |:--------------------------|:------------------------------------------------------------------------------|

@@ -1,0 +1,8 @@
+{
+  "label": "Manager View",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Manager view is for users who will assigned the task to employee. "
+  }
+}

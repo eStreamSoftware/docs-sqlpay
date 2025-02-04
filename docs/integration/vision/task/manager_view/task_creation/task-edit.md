@@ -12,7 +12,7 @@ This feature is only available to **manager** and **admin**.
 
 To edit a mission, go to **Main Dashboard | Manage Task | press on a mission card | press Edit Button**. 
 
-![edit task](../../../../../static/img/integration/vision/mi_creation/e-1.png)
+![edit task](../../../../../../static/img/integration/vision/mi_creation/e-1.png)
 
 ## Edit Permission
 
@@ -30,4 +30,4 @@ There are certain conditions for editing a mission, as stated in the table below
 
 To clearly identify the non-editable fields, they will be greyed out, as shown in the picture.
 
-![disabled field](../../../../../static/img/integration/vision/mi_creation/e-payment.png)
+![disabled field](../../../../../../static/img/integration/vision/mi_creation/e-payment.png)

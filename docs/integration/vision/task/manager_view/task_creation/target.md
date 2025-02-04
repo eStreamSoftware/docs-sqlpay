@@ -14,7 +14,7 @@ This feature is only available to **manager**.
 
 ## Step 1 - Target Details
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-1.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-1.png)
 
 | Properties                   | Description                                                                        | Note     |
 |:-----------------------------|:-----------------------------------------------------------------------------------|:--------:|
@@ -27,7 +27,7 @@ This feature is only available to **manager**.
 
 ## Step 2 - Target and Rewards
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.png)
 
 
 | Properties                          | Description                                                                              | Note         | 
@@ -43,7 +43,7 @@ This feature is only available to **manager**.
 
 ### Grouping Type
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.1.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.1.png)
 
 There are two types of **Grouping Types**:
 
@@ -74,9 +74,9 @@ To set up a team target, create two identical missions: one with the **Individua
 
 ### Strategy
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.2.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.2.png)
 
-**Strategy** refers to the formula that helps managers and the application determine which specific target a particular mission belongs to. This formula enables the application to accurately retrieve the target amount from the SQL Account. For more details, see [**Linking to SQL Account | Strategy**](../../linking-to-account.md#strategy).
+**Strategy** refers to the formula that helps managers and the application determine which specific target a particular mission belongs to. This formula enables the application to accurately retrieve the target amount from the SQL Account. For more details, see [**Linking to SQL Account | Strategy**](../../../linking-to-account.md#strategy).
 
 :::tip Example Scenario
 
@@ -92,7 +92,7 @@ Suppose you’re managing a Sales Department and want to track Q1 sales targets:
 
 ### Condition
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.3.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.3.png)
 
 **Condition** specifies the criteria for calculating target rewards.
 
@@ -105,7 +105,7 @@ The "Between" condition is designed to allocate rewards based on an employee’s
 
 It is essential to ensure the upper limit (Y) of one target matches the lower limit (X) of the subsequent target to ensure continuity and avoid gaps.
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.3-example.png)
 
 1. If an employee achieves **RM15,000**, the employee will fall in **Target 1** and receive **2%** reward.
 2. If an employee achieves **RM25,000**, the employee will fall in **Target 2** and receive **3%** reward.
@@ -117,7 +117,7 @@ The "More Than" condition is used to grant rewards when an employee surpasses a 
 - Each reward is granted only **once**, regardless of how far the employee's achievement exceeds the target.
 - Achieving a higher target **excludes rewards for lower targets**, ensuring that only the highest applicable reward is granted.
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example2.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.3-example2.png)
 
 1. If an employee achieves **RM15,000**, they will receive **2%** reward because their achievement **exceeds RM10,000 but does not surpass RM20,000**.
 2. If an employee achieves **RM25,000**, they will receive **3%** reward because their achievement **exceeds RM20,000**, which excludes the reward for the lower target (2% Reward).
@@ -129,7 +129,7 @@ The "Less Than" condition is designed to grant rewards when an employee achieves
 - Each reward is granted only **once**, based on the smallest qualifying target achieved.
 - Achieving a lower target amount **excludes rewards for higher targets**.
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example3.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.3-example3.png)
 
 1. If an employee have **2 return stock**, they will receive **RM3,000 & 10,000 coins** because their performance is **below 3**, which excludes the second target reward.
 2. If an employee have **4 return stock**, they will receive **RM1,000 & 5,000 coins** bacause their performance is **below 10 but above or equal 3**, therfore not qualify with the reward in Target 1.
@@ -141,7 +141,7 @@ The "More Than and Equal" condition grants rewards when an employee’s achievem
 - Each reward is granted only **once**, corresponding to the highest applicable target achieved.
 - Achieving a higher target automatically **excludes rewards for lower targets**.
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example4.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.3-example4.png)
 
 1. If an employee achieves **5 new customers**, they will receive **RM1,000 & 5,000 coins** because their achievement is **5 or more customers** but does not meet the next threshold of 10 or more customers.
 2. If an employee achieves **12 new customers**, they will receive **RM3,000 and 10,000 coins** because their achievement is **10 or more customers**, which excludes first target rewards.
@@ -153,20 +153,20 @@ The "Less Than and Equal" condition is applied to reward employees who achieve r
 - Each reward is granted only **once**, based on the smallest qualifying target achieved.
 - Achieving a smaller target automatically **excludes rewards for higher targets**.
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.3-example5.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.3-example5.png)
 
 1. If an employee has **3** return stock, they will receive **RM3,000 & 10,000 coins** because their performance is **3 or less**, which excludes rewards for any higher targets.
 2. If an employee has **4** return stock, they will receive **RM1,000 & 5,000 coins** because their performance is **10 or less but above 3**, making them ineligible for Target 1's reward.
 
 ### Target and Rewards
 
-![target](../../../../../static/img/integration/vision/mi_creation/t-2.4.png)
+![target](../../../../../../static/img/integration/vision/mi_creation/t-2.4.png)
 
 
 | Properties  | Description                                                                                              |
 |-------------|----------------------------------------------------------------------------------------------------------|
 | **Target**  | Text field to input the target amount. (Note: Only the **Between** condition will have two text fields.) |
-| **Rewards** | Text field to enter the rewards available to the achievers of the particular target. There are 3 types of rewards: <br/> &nbsp;&nbsp; 1. **Percentage (%):** A percentage of the target amount awarded to the members (e.g., 2%). <br/> &nbsp;&nbsp; 2. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 3. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../gift/introduction.md). |
+| **Rewards** | Text field to enter the rewards available to the achievers of the particular target. There are 3 types of rewards: <br/> &nbsp;&nbsp; 1. **Percentage (%):** A percentage of the target amount awarded to the members (e.g., 2%). <br/> &nbsp;&nbsp; 2. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 3. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../../gift/introduction.md). |
 | **Add**     | Adds a new target along with its respective rewards.                                                     |
 | **Delete**  | Deletes a specific target and its associated rewards.                                                    |
 
@@ -178,7 +178,7 @@ The payment method applies only to **Cash**. All coins will be paid immediately 
 
 :::
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.3.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.3.png)
 
 There are two types of payment methods:
 
@@ -209,7 +209,7 @@ There are 4 combination of members that can be created in Target:
 
 All 4 combinations can be created in **[Add Members](#step-3---add-members)** in Step 3.
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/t-3.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/t-3.png)
 
 | Properties              | Description                                                              | 
 |:------------------------|:-------------------------------------------------------------------------|

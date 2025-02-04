@@ -14,7 +14,7 @@ This feature is only available to **manager**.
 
 ## Step 1 - Assignment Information
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-1.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-1.png)
 
 
 | Properties               | Description                                                                        | Note     |
@@ -31,11 +31,11 @@ This feature is only available to **manager**.
 
 Select a **Project**, **Job**, and **Task** from the dropdown. If you leave any of these fields set to **(None)**, the Manager's Project, Job, and Task will be used in the SQL Payroll.
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-1.3.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-1.3.png)
 
 ## Step 2 - Milestone and Rewards
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.png)
 
 | Properties                                          | Description                                                           | Note         |
 |:----------------------------------------------------|:----------------------------------------------------------------------|:------------:|
@@ -49,26 +49,26 @@ Select a **Project**, **Job**, and **Task** from the dropdown. If you leave any 
 
 ### Milestone and Rewards
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.1.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.1.png)
 
 
 | Properties          | Description                                                           |
 |---------------------|-----------------------------------------------------------------------|
 | **Milestone (%)**   | Text field to input the percentage of the milestone (e.g., 20%).      |
 | **Description**     | Text field to input the description of the milestone (e.g., the requirements to achieve the particular milestone). |
-| **Rewards**         | Text field to enter the rewards available to the achievers of the particular milestone. There are 2 types of rewards: <br/> &nbsp;&nbsp; 1. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 2. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../gift/introduction.md). |
+| **Rewards**         | Text field to enter the rewards available to the achievers of the particular milestone. There are 2 types of rewards: <br/> &nbsp;&nbsp; 1. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 2. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../../gift/introduction.md). |
 | **Add**             | Adds a new milestone along with its respective rewards.               |
 | **Delete**          | Deletes a specific milestone and its associated rewards.              |
 
 ### Consultant Rewards
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.2.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.2.png)
 
 **Consultants** are employees responsible for providing guidance on a particular mission. They do not complete the mission themselves.
 
-To add a consultant click on ![add person](../../../../../static/img/integration/vision/mi_creation/a-2.2-add.png) to navigates to the Select Consultant page. The selected consultants will be listed down in the Consultant Rewards section under the associated rewards.
+To add a consultant click on ![add person](../../../../../../static/img/integration/vision/mi_creation/a-2.2-add.png) to navigates to the Select Consultant page. The selected consultants will be listed down in the Consultant Rewards section under the associated rewards.
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.2.2.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.2.2.png)
 
 ### Payment By
 
@@ -78,7 +78,7 @@ The payment method applies only to **Cash**. All coins will be paid immediately 
 
 :::
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.3.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.3.png)
 
 There are two types of payment methods:
 
@@ -93,7 +93,7 @@ There are two types of payment methods:
 
 ### Bonus
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-2.4.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.4.png)
 
 | Properties    | Description                                                                         |
 |---------------|-------------------------------------------------------------------------------------|
@@ -121,7 +121,7 @@ There are 4 combination of members that can be created in Assignment:
 
 The *Normal Member* and *Admin* can be created in **[Add Members](#step-3---add-members)** in Step 3, on the other hand the *Consultant* and *Consultant and Admin* combination can be created in **[Consultant Reward](#consultant-rewards)** in Step 2.
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-3.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-3.png)
 
 | Properties                  | Description                                                              | 
 |:----------------------------|:-------------------------------------------------------------------------|
@@ -134,7 +134,7 @@ The *Normal Member* and *Admin* can be created in **[Add Members](#step-3---add-
 
 #### Filter
 
-![assignment](../../../../../static/img/integration/vision/mi_creation/a-3.2.png)
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-3.2.png)
 
 The employee list can be filtered and sort by:
 
