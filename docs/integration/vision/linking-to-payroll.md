@@ -30,7 +30,7 @@ SQL Vision are linked with SQL Payroll to process all cash rewards earned by emp
 
 :::info[note]
 
-By default, all rewards will be classified as **Commission**. You can change the payment method by updating the **Payout Code**.
+All rewards will be classified as **Commission** by default. You can change the payment method by updating the **Payout Code**.
 
 ![payroll](../../../static/img/integration/vision/payroll/payroll-info.png)
 
@@ -38,7 +38,7 @@ By default, all rewards will be classified as **Commission**. You can change the
 
 :::warning[Warning]
 
-You are **not allowed** to process the reward for specific employees if the expected payout month is within or before the payroll process month.  
-If you choose not to process particular reward, update the expected payout date for the employee in SQL Vision through **[Wallet | Manage Payout](wallet.md#1---manage-payoutentitlement-page)**.
+- You are **allowed** to process the reward for specific employees if the expected payout month is **within or before** the payroll process month.  
+- If you **choose not to process** particular reward, update the expected payout date for the employee in SQL Vision through **[Wallet | Manage Payout](wallet.md#1---manage-payoutentitlement-page)**.
 
 :::

@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Introduction
 
-There are two types of missions in task module: **Assignment** and **Target**.
+There are 3 types of missions in task module: **Assignment**, **Target** and **Quest**.
 
 - **Assignment:**  
   An Assignment mission focuses on qualitative outcomes that require creativity and strategic thinking. These missions emphasize the quality of work and the process rather than measurable results. E.g. Idea brainstorm, Clothes design..

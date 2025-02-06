@@ -28,6 +28,6 @@ There are certain conditions for editing a mission, as stated in the table below
 
 #### Non-editable Field
 
-To clearly identify the non-editable fields, they will be greyed out, as shown in the picture.
+The non-editable fields will be greyed out as shown in the picture below.
 
 ![disabled field](../../../../../../static/img/integration/vision/mi_creation/e-payment.png)

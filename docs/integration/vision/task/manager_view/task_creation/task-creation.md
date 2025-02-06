@@ -5,7 +5,7 @@ sidebar_position: 1
 # Create a Mission
 
 :::info[Note]
-This feature is only available to **managers**.
+This feature is only available to **manager**.
 :::
 
 To create a new mission, navigate to **Main Dashboard | Manage Task**. Click the **Add Button** located at the bottom right corner of the app.

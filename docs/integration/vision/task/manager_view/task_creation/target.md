@@ -82,11 +82,9 @@ To set up a team target, create two identical missions: one with the **Individua
 
 Suppose you’re managing a Sales Department and want to track Q1 sales targets:
 
-1. **Assign Strategy to Mission**  
-   For the mission **"Achieve Q1 Sales Target"**, assign the **"Invoice Based Strategy"** strategy.
+1. For the mission **"Achieve Q1 Sales Target"**, assign the **"Invoice Based Strategy"** strategy.
 
-2. **Automated Target Tracking**  
-   With this setup, the application will automatically retrieve and update the sales progress daily, based on employee achievements recorded in SQL Account. Managers can view this updated progress daily in SQL Vision. 
+2. With this setup, managers can update sales progress daily in SQL Vision by using SQL Vision Sync tool by mapping to the right Strategy ID. Managers can view the updated progress daily in SQL Vision.
 
 :::
 
