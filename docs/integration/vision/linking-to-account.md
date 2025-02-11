@@ -31,7 +31,7 @@ SQL Vision are linked to SQL Account to get the amount of sales target achieved 
  
 ![Sync Program](../../../static/img/integration/vision/account/location-DCF-file.png)
 
-2. Open the dropdown and select the database from the dropdown lsit. 
+2. Open the dropdown and select the database from the dropdown list. 
 
 3. Insert the user name and password fields with the SQL Accounting Software user name and password. 
 
@@ -67,71 +67,52 @@ The SQL Accounting Software must be open and logged in during the connection pro
 
 ## Strategy
 
-The **Strategy** is a formula that helps managers and the application categorize specific targets for each mission. This setup allows the application to accurately retrieve the target amounts associated with a mission from the SQL Account system.
+The **Strategy** is a formula that helps managers and the application categorize specific targets for each mission. This setup allows the application to accurately retrieve the target amounts associated with a mission from the SQL Account system. 
+
+To view the strategy, go to **Main Dashboard | Side Bar | Company Configuration**
 
 :::tip Example Scenario
 
-<!-- Suppose you’re managing a Sales Department and want to track quarterly targets for different product lines: -->
 Suppose you’re managing a Sales Department and want to track Q1 sales targets:
 
-<!-- 1. **Define a Strategy**  
-   Create a strategy named **"Q1 Product Line A Sales"** to track sales targets for Product Line A for the first quarter. -->
+1. For the mission **"Achieve Q1 Sales Target"**, assign the **"Invoice Based Strategy"** strategy.
 
-1. **Assign Strategy to Mission**  
-   For the mission **"Achieve Q1 Sales Target"**, assign the **"Invoice Based Strategy"** strategy.
-   <!-- For the mission **"Achieve Q1 Sales Target for Product Line A"**, assign the **"Invoice Based Strategy"** strategy. -->
-
-2. **Automated Target Tracking**  
-   With this setup, the application will automatically retrieve and update the sales progress daily, based on employee achievements recorded in SQL Account. Managers can view this updated progress daily in SQL Vision. 
-   <!-- With this setup, the application will automatically retrieve and update the sales progress for Product Line A daily, based on employee achievements recorded in SQL Account. Managers can view this updated progress daily in SQL Vision. -->
+2. With this setup, managers can update sales progress daily in SQL Vision by using SQL Vision Sync tool by mapping to the right Strategy ID. Managers can view the updated progress daily in SQL Vision.
 
 :::
 
-### 1.0 Pre-defined Strategy
+### Pre-defined Strategy
 
 By default, SQL Vision automatically adds two pre-defined strategies to a newly created company, as shown in the image below:
 
 ![Predefined Strategy](../../../static/img/integration/vision/account/predefined-strategy.png)
 
-If the system encounters an error and fails to create the pre-defined strategies, you can manually add them by navigating to the Company Configuration section. When this issue occurs, SQL Vision will display a dialog box prompting you to add the default strategies manually, as shown in the image below:
+If the system encounters an error and fails to create the pre-defined strategies, you can manually add them by navigating to the Company Configuration section. When this issue occurs, the application will display a dialog box prompting you to add the default strategies manually, as shown in the image below:
 
 ![Predefined Strategy-Add](../../../static/img/integration/vision/account/predefined-strategy-add.png)
 
-### 1.1 Creating or Editing a Strategy
-
-Coming Soon.
-
-<!-- Managers can create or modify strategies by navigating to **Main Dashboard > Side Bar > Company Configuration**.
-
-![Company Configuration](../../../static/img/integration/vision/main-dashboard/companyConfiguration.png)
-
-#### 1. Add Strategy
+### Creating Strategy
 
 To add a new strategy, follow these steps:
 
 ![Add Strategy](../../../static/img/integration/vision/account/strategy-add.png)
 
-| Step                  | Description                                              | 
-|:----------------------|:---------------------------------------------------------|
-| **1. Add Icon**       | Click the add icon to create a new strategy.             | 
-| **2. Text Field**     | Enter the name of your strategy.                         | 
-| **3. Add Button**     | Click the add button to preview the new strategy.        |
-| **4. Preview**        | View your strategy in the preview. Use the X to remove it if needed. |
-| **5. Save Button**    | Save your new strategy.                                  |
-| **6. Cancel Button**  | Cancel your creation.                                    |
+1. Click the **add icon** to create a new strategy.
+2. Enter the strategy name.
+3. Click the **Add** button.
+4. Strategy added can be preview. Click **X** to remove it.
+5. Click **Save** to apply changes.
+6. Click **Cancel** to discard the changes.
 
-#### 2. Edit Strategy
+### Editing Strategy
 
 To edit an existing strategy, follow these steps:
 
 ![Edit Strategy](../../../static/img/integration/vision/account/strategy-edit.png)
 
-| Step                  | Description                                                       | 
-|:----------------------|:------------------------------------------------------------------|
-| **1. Edit Icon**      | Click the edit icon to modify an existing strategy.               | 
-| **2. Text Field**     | Change the name of the strategy as needed.                        | 
-| **3. Edit Button**    | Click the edit button to preview your modifications.              |
-| **4. Preview**        | View the strategy in the preview. Use the Edit Icon to re-edit if necessary. |
-| **5. Save Button**    | Save your updated strategy.                                       |
-| **6. Cancel Button**  | Cancel the modification.                                          | -->
+1. Click on the strategy you want like to edit.
+2. Edit the strategy name.
+3. Click the **Edit** button.
+4. Click **Save** to apply changes.
+5. Click **Cancel** to discard the changes.
 
