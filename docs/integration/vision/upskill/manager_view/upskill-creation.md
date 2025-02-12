@@ -115,8 +115,9 @@ sidebar_position: 1
 | <div align="center">Properties</div> | <div align="center">Description</div> | <div align="center">Note</div> |
 |:-----------------------------|:-----------------------------------------------------------------------------------|:---------|
 | **Is Public**     | Determine whether this course is public or private. | **On:**<br/>Public course.<br/><br/>**Off:**<br/>Private course.<br/><br/>To know more about public and private course, [<u> click here</u>](../introduction#course-privacy).
-| **Filter Icon**        | Filter and sort the employee list.                                             | By branch, department & HR group. |
-| **Select All**    | Select all employees as participants.                                                         | Can press again to deselect all employees. |
+| **Filter Icon**   | Filter and sort the employee list.                  | By branch, department & HR group. |
+| **Group Icon**    | Apply group members.                                | To know more about group, [<u>click here</u>](../../group#apply-group).
+| **Select All**    | Select all employees as participants.               | Can press again to deselect all employees. |
 | **Available Slots**        | The available slots left for this course (Number of selected participants / maximum pax).                                                           |As this is **private** course, so there is **no maximum pax**, hence the maximum pax is "-".|
 | **Selected Employees** (With tick)     | All employees in the companies that **participate** in this course.                            |  Click to **remove** employee from course.<br/><br/>Selected participants cannot be removed when the course has started (ongoing). |
 | **Unselected Employees** (Without tick)        | All employees in the companies that **does not participate** in this course.                                                                        |Click to **add** employee to course.|
