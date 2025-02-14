@@ -25,6 +25,9 @@ sidebar_position: 2
 ### Manage Upskill
 - Allows user to create, edit and update courses, track course progress and review completed course.
 
+### Manage Group
+- Allows user to view, create, edit and delete groups.
+
 ## Status Card
 ![Status Card](../../../static/img/integration/vision/main-dashboard/statusCard.png)
 

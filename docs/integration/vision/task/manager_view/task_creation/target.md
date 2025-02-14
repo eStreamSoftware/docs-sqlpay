@@ -213,6 +213,7 @@ All 4 combinations can be created in **[Add Members](#step-3---add-members)** in
 |:------------------------|:-------------------------------------------------------------------------|
 | **Search**              | Allows you to search for employees by their names.                       | 
 | **[Filter](assignment#filter)**   | Allow you to filter and sort the employee list.                | 
+| **Group**               | Allow you to apply group. See more in [**group**](../../../group#apply-group).     | 
 | **Select All**          | Allow you to select all employees at once.                               |
 | **Make Quest**          | Converts your mission into a Quest. See more in [**quest**](quest).      |
 | **Back**                | Navigates to the previous page.                                          |
