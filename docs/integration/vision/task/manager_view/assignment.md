@@ -82,7 +82,7 @@ Manager can override the log file's progress percentage by clicking **Save** but
 :::note Note
 
 - Edit amount cannot **exceed** the maximum amount as shown.
-- Manager can **edit** maximum amount in the [**Edit**](#23-edit) section.
+- Manager can **edit** maximum amount in the [**Edit**](./task_creation/task-edit.md) section.
 
 :::
 
