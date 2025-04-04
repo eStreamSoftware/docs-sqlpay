@@ -52,6 +52,7 @@ User can view his monthly net pay and total net income
     
     ![side-drawer](../../../../static/img/integration/hrms/e-payroll/side-drawer.png)
 
+- **Update Latest Version:** It will only appear when there's new update and user will be directed to Play Store (Android) / App Store (iOS) to update their app
 - **Logout:** Logout from SQL HRMS app
 
 ### Personal Information
@@ -74,17 +75,17 @@ User can view his managers and access their contacts by swiping/tapping on the m
 
 ### Team List
 
-User can view his team members’ general personal information  
+User can view a list of their team members. Additionally, manager can view a list of their managing employees and their general personal information  
     
     ![team-list](../../../../static/img/integration/hrms/e-payroll/team-list.png)
 
 ### Announcement
 
-User can view his company announcement  
+User can view their company's announcement  
     
     ![announcement1](../../../../static/img/integration/hrms/e-payroll/announcement1.png)
 
-- Announcements will be visible for 3 months
+- Announcements will be visible according to the duration set in [SQL Payroll](payroll-setup.md#maintain-announcement)
 - Employee will be notified if there are new announcements from today to future dates
 - Time of Announcement Notification:
   - If post date is today, the employee will be notified almost immediately
@@ -123,9 +124,16 @@ User can switch to different company which are linked to the login email
     ![help-center](../../../../static/img/integration/hrms/e-payroll/help-center.png)
 
 - **Rate Us:** User will be directed to Play Store (Android) / App Store (iOS) to rate SQL HRMS
-- **About SQL HRMS:** User will be directed to [SQL HRMS documentation](https://docs.sql.com.my/sqlpay/category/hrms/) where user can learn more about SQL HRMS features
-- **Help Videos:** User will be directed to [SQL HRMS playlists](https://www.youtube.com/playlist?list=PLBfrhZPWZd1Vxv3lYf174a3EW7Pdw8Cth) on YouTube where user can learn more about SQL HRMS features
-- **SQL Privacy Policy:** User will be directed to [SQL Privacy Policy](https://www.sql.com.my/pdpa/) where user can learn how their information is used without violating user's privacy 
+- **About SQL HRMS:** User will be directed to [SQL HRMS documentation](https://docs.sql.com.my/sqlpay/category/sql-hrms) where user can learn more about SQL HRMS features
+- **Help Videos:** User will be directed to [SQL HRMS playlists](https://www.youtube.com/playlist?list=PLBfrhZPWZd1Vxv3lYf174a3EW7Pdw8Cth) on YouTube where user can learn more about SQL HRMS features  
+- **Release Notes:** User will be directed to [SQL HRMS Release Note](https://www.sql.com.my/sql-hrms/releases/) where user can know more about SQL HRMS latest updates
+- **SQL Privacy Policy:** User will be directed to [SQL Privacy Policy](https://www.sql.com.my/pdpa/) where user can learn how their information is used without violating user's privacy  
+
+#### FAQ Center
+
+User can find frequently asked questions to understand better about SQL HRMS features    
+
+    ![faq](../../../../static/img/integration/hrms/e-payroll/faq.png)
 
 #### User Feedback
 

@@ -12,13 +12,17 @@ description: A login guide for SQL HRMS
 
 **Step 2:** Enter OTP sent to your email | Login  
     
-    ![login2](../../../static/img/integration/hrms/login/login2.png)
+    ![login2](../../../static/img/integration/hrms/login/login2.png)  
 
-## Try Live Demo
+**Step 3:** Select a company  
+
+    ![login3](../../../static/img/integration/hrms/login/login3.png)  
+
+## Try Demo Account
 
 User may try out all the modules (E-TMS, E-Leave, E-Claim, E-Payroll) as manager
 
-**Step 1:** Try Live Demo  
+**Step 1:** Start Exploring  
     
     ![try-live-demo1](../../../static/img/integration/hrms/login/try-live-demo1.png) 
 

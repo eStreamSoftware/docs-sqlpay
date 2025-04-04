@@ -12,34 +12,36 @@ Enable **Autostart** for SQL HRMS to ensure E TMS features work accordingly (ref
 
     ![dashboard](../../../../static/img/integration/hrms/e-tms/dashboard.png)  
 
-- **Upcoming Holiday:** User's upcoming public holidays
 - **Session Card:** User's work session shift time
-    - User can tap on the card to direct to Work Session Calendar
+    - It shows user's first Clock In and last Clock Out of the day with an estimated calculation of late in and early out
+    - User can tap on the card to direct to User's Attendance Log
     - User can tap on the ***'Clock In' button*** to direct to Clock In / Clock Out page
-        - If no work session is assigned, the button will be disabled
+        - If no work session is assigned, the button will be disabled  
+- **Upcoming Holiday:** User's upcoming public holidays
+
 
 ## Clock In / Clock Out
+
+| **Button** | **Explanation** |
+| :--------- | :-------------- |
+| ![clock-button1](../../../../static/img/integration/hrms/e-tms/clock-button1.png) | SQL HRMS app's Location service is unable to start. This may due to the following reasons: <br/><br/> 1. User's location service is not enabled <br/> 2. The required location permission is not allowed <br/><br/> Refer [Location Service and Permission](../permission.md#location) |  
+| ![clock-button2](../../../../static/img/integration/hrms/e-tms/clock-button2.png) | SQL HRMS app is trying to get user's current location | 
+| ![clock-button3](../../../../static/img/integration/hrms/e-tms/clock-button3.png) | User is not within work location. However, if user is really within their work location, SQL HRMS app will continuously try to get a more accurate position so that user will be able to Clock In / Clock Out | 
+| ![clock-button4](../../../../static/img/integration/hrms/e-tms/clock-button4.png) | User's location is mocked and is not allowed to Clock In / Out | 
+| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User is within work location and is allowed to Clock In | 
+| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User is within work location and is allowed to Clock Out | 
 
 **Clock In**  
     
     ![clock-in1](../../../../static/img/integration/hrms/e-tms/clock-in1.png)  
 
-- User who is a traveller will show a **'Traveller'** with green check
-- **'Location Matched' / 'Location Unmatched'** will only visible for: 
-    - Normal employee (not traveller)
-    - Traveller that is only allowed to clock in / out at specific places (assigned Work Location)
-- The button will only enabled if the user turns on their Location Service (refer [Android Permission](../permission.md#android) and [iOS Permission](../permission.md#ios)) and their location is within their designated work location(s)
+- User who is a traveller will show a **'Traveller'** with green check  
 
 :::info
-If user forget to clock out, after a certain period of time, the app will reset the time tracking  
+If user forget to clock out, the app will reset the time tracking after 10 hours (600 mins) after Session Work End time and last Clock In time
     
     ![clock-in2](../../../../static/img/integration/hrms/e-tms/clock-in2.png)
 :::
-
-| **Day Type** | **Reset Period** | **Example** |
-| :----------- | :--------------- | :---------- |
-| Work Day with Session | 12 hours (720 mins) after Session Work End time | Session Work End: 31/05/2024 6pm <br/> Reset time: 01/06/2024 6am |  
-| Rest Day <br/> Public Holiday <br/> Work Day with No Session <br/> | 16 hours (960 mins) after last Clock In time | Last Clock In: 31/05/2024 9am <br/> Reset time: 01/06/2024 1am |
 
 **Clock Out**  
     
@@ -158,7 +160,7 @@ Shows the employee's OT entitlement
     ![team-summary](../../../../static/img/integration/hrms/e-tms/team-summary.png)
 
 - User can view his team member's time attendance summary 
-- User can tap on the card to direct to [**Attendance Log**](#log) to view detailed summary
+- **Only manager that is managing that employee** can tap on the card to direct to [**Attendance Log**](#log) for more detailed summary
 - ***'Clock on Behalf' button*** will be visible only to manager on current date and previous dates where time attendance summaries have not been process
 - Filtering chips can be used to filter the summary: 
     - Late In
@@ -181,16 +183,25 @@ Managers are allowed to clock in on behalf for his team by tapping on the ***'Cl
     
     ![clock-on-behalf2](../../../../static/img/integration/hrms/e-tms/clock-on-behalf2.png)  
 
+| **Button** | **Explanation** |
+| :--------- | :-------------- |
+| ![clock-button1](../../../../static/img/integration/hrms/e-tms/clock-button1.png) | SQL HRMS app's location service is unable to start. This may due to the following reasons: <br/><br/> 1. User's device GPS is not enabled <br/> 2. The required location permission is not allowed <br/><br/> Refer [Location Service and Permission](../permission.md#location)|  
+| ![clock-button2](../../../../static/img/integration/hrms/e-tms/clock-button2.png) | SQL HRMS app is trying to get user's current location |
+| ![clock-button4](../../../../static/img/integration/hrms/e-tms/clock-button4.png) | User's location is mocked and is not allowed to Clock In / Out |  
+| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User's location is detected and is allowed to Clock In | 
+| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User's location is detected and is allowed to Clock Out | 
+
 - Manager's location will be captured when help to clock on behalf
-- ***'Clock In/Clock Out' button*** will be enabled only if the manager's Location Service is enabled (refer [Android Permission](../permission.md#android) and [iOS Permission](../permission.md#ios))
-- Manager can adjust the employee's clocking time and checked ***'Claim OT'*** if needed
-- Manager are not allowed to clock out on behalf if employee already clocked out on the next day
+- Manager can adjust the employee's clocking time and checked ***'Claim OT'*** or ***'Claim As Leave'*** if needed
+- Manager are not allowed to clock out on behalf if employee already clocked out on the next day  
+- Manager are not allowed to clock on behalf earlier than the stated last processed date and time
 
 **View Attendance Log Detail (Right Arrow Icon)**  
     
     ![attendance-log-detail](../../../../static/img/integration/hrms/e-tms/attendance-log-detail.png)  
 
-- A Pencil icon will be visible next to the time if the log is allowed to be adjusted  
+- A ***Pencil icon*** will be visible next to the time if the log is allowed to be adjusted  
+- Any date and time earlier than the stated last processed date and time cannot be adjusted  
 
 ## Notification
 
@@ -206,46 +217,73 @@ The notification will appear after employee clocked in and has ***'GPS Monitorin
     
     ![reminder1](../../../../static/img/integration/hrms/e-tms/reminder1.png)
 
-2. Remind employee to clock out when he leaves his work location  
+2. Remind employee to clock out it's work end  
     
     ![reminder2](../../../../static/img/integration/hrms/e-tms/reminder2.png)
 
-### Clock Status Update
+### Status Update
 
-- There are three types of status update: 
-    - Location service off
-    - Employee outside work location
+- Managers will receive their managing employees' status update  
+- Types of status update: 
+    - Location service off  
+
+        ![status-update-notification1](../../../../static/img/integration/hrms/e-tms/status-update-notification1.png)
+
+    - Employee outside work location  
+
+        ![status-update-notification2](../../../../static/img/integration/hrms/e-tms/status-update-notification2.png)
+
     - Mock / Fake location
-- Eg:  
-    
-    ![status-update](../../../../static/img/integration/hrms/e-tms/status-update.png)
+
+        ![status-update-notification3](../../../../static/img/integration/hrms/e-tms/status-update-notification3.png)
 
 ### Clock On Behalf
 
-Managers managing the same employee will receive the following notifications once a manager help his team to clock on behalf  
+- The manager themselves and other managers managing the same employee will receive the following notifications once they clock on behalf for an employee  
 
-1. App Notification  
+  - App Notification  
     
-    ![clock-on-behalf-notification1](../../../../static/img/integration/hrms/e-tms/clock-on-behalf-notification1.png)
+        ![clock-on-behalf-notification1](../../../../static/img/integration/hrms/e-tms/clock-on-behalf-notification1.png)
 
-2. Email Notification  
+  - Email Notification  
     
-    ![clock-on-behalf-notification2](../../../../static/img/integration/hrms/e-tms/clock-on-behalf-notification2.png)
+        ![clock-on-behalf-notification2](../../../../static/img/integration/hrms/e-tms/clock-on-behalf-notification2.png)
 
-### Edited Attendance Log
+- The employee will receive the following notifications once their manager clock on behalf for them  
 
-Managers managing the same employee will receive the following notifications once a manager edited an employee attendance log   
+  - App Notification  
 
-1. App Notification  
+        ![clock-on-behalf-notification3](../../../../static/img/integration/hrms/e-tms/clock-on-behalf-notification3.png) 
+
+  - Email Notification  
+  
+        ![clock-on-behalf-notification4](../../../../static/img/integration/hrms/e-tms/clock-on-behalf-notification4.png)
+
+### Adjusted Attendance Log
+
+- The manager themselves and other managers managing the same employee will receive the following notifications once they adjusted an employee's attendance log   
+
+  - App Notification  
     
-    ![edited-log-notification1](../../../../static/img/integration/hrms/e-tms/edited-log-notification1.png)  
+        ![adjusted-log-notification1](../../../../static/img/integration/hrms/e-tms/adjusted-log-notification1.png)  
 
-2. Email Notification  
+  - Email Notification  
     
-    ![edited-log-notification2](../../../../static/img/integration/hrms/e-tms/edited-log-notification2.png)  
+        ![adjusted-log-notification2](../../../../static/img/integration/hrms/e-tms/adjusted-log-notification2.png)  
+
+- The employee will receive the following notifications once their manager adjusted their attendance log  
+  
+  - App Notification  
+ 
+        ![adjusted-log-notification3](../../../../static/img/integration/hrms/e-tms/adjusted-log-notification3.png)
+
+  - Email Notification  
+  
+        ![adjusted-log-notification4](../../../../static/img/integration/hrms/e-tms/adjusted-log-notification4.png)
 
 ### Employee login from a different device
 
-Managers will receive an email notification once his team using a different device to login to the app  
+- Managers will receive an email notification when his team use a different device to login to the app  
+- The purpose is to help manager keep track if there are any employees that might help their friends to clock in / out  
     
-    ![different-device](../../../../static/img/integration/hrms/e-tms/different-device.png)
+    ![different-device-notification](../../../../static/img/integration/hrms/e-tms/different-device-notification.png)

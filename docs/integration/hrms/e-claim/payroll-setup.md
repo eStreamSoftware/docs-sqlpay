@@ -19,3 +19,14 @@ Option 2: Maintain Employee | Claim Limit tab
 :::info
 Payroll / SQL HRMS app will prioritize claim limit set in Maintain Employee over the claim limit in Maintain Claim
 :::
+
+## Manager Authority Settings
+**Step:** Maintain Employee | E HRMS tab
+
+![manage-authority-settings](../../../../static/img/integration/hrms/e-claim/manage-authority-settings.png)
+
+- ***'Manager' checkbox***: Checked to make the employee a manager
+- **Manager Authority**:
+    - Can Approve: Able to approve team’s claim submissions and leave applications
+    - Can Review: Only able to verify team’s claim submissions and leave applications
+- **Manager Team**: Select branch and department that will be managed by the employee

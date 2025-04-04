@@ -10,7 +10,7 @@ description: An E Payroll setup guide in SQL Payroll
 **Step 2:** Enter Title and Remark
 - Remark is optional and visible in maintenance view only
   
-**Step 3:** Select a Category and Date for when the Announcement will be visible to the employees  
+**Step 3:** Select a Category and Date for the duration the Announcement will be visible to the employees  
   
   ![maintain-announcement1](../../../../static/img/integration/hrms/e-payroll/maintain-announcement1.png)
 
@@ -32,18 +32,35 @@ description: An E Payroll setup guide in SQL Payroll
   
   ![sync-cloud](../../../../static/img/integration/hrms/e-payroll/sync-cloud.png)
 
-- To sync payroll and payslip
+- To sync payroll details and payslip
   - Check ***'Include Employee Payroll Info'***
   - Select Year and Month
   - Check ***'Upload Payslip'***
-  - Select Report format
+  - Select Report format  
+  
+  | **Year** | **Month** | **Upload Payslip** | **Explanation** |    
+  | :------- | :-------- | :----------------- | :-------------- |  
+  | 2025 | 2 | Checked | **Payroll Details:** All details up till Feb 2025 will synced <br/> **Payslip:** Payslip for Feb 2025 will be synced |  
+  | 2025 | 2 | Unchecked | **Payroll Details:** All details up till Feb 2025 will synced <br/> **Payslip:** No payslip will be synced |
   
 - To Sync EA form
   - Check ***'Include EA Form Info'***
   - Check ***'Upload Payslip'***
   - Select Year and Report format
 
+:::info
+The Year and Month selected next to Payroll Info is for **Payroll Details** and **Payslip** only (it's not applicable to EA Form)
+:::
+
 **Step 2:** Click ***'Sync All'***
+
+:::warning
+A warning message will be prompt when user wants to sync **Payslip** earlier than their last synced date  
+
+![sync-payslip](../../../../static/img/integration/hrms/e-payroll/sync-payslip.png)
+
+Proceeding will cause **newer Payslip** to be deleted and user will have to resync each month individually again
+:::
 
 ### Announcement
 

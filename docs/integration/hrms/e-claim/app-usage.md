@@ -14,6 +14,10 @@ description: An E Claim features in SQL HRMS app guide
 - **Claim Amount Summary**: User's total amount of pending and approved claims submitted in the current year
 - **Claim Balance Summary**: User’s pending and approved claims on each expenses types by month and by year
 
+:::info[Note]
+Prorated year claim limit will be applied to user whose Join Year = Current Year.
+:::
+
 ## Claim Submission
 **Step 1:** 
 
@@ -40,7 +44,7 @@ The app will help to do the following checkings after user click on the ***'Subm
     ![exceed-ytd-limit](../../../../static/img/integration/hrms/e-claim/exceed-ytd-limit.png)
 
 :::info
-User can choose to change the claim details by submitting a new claim (***'Reapply' button***) or proceed with the current claim submission (***'Proceed' button***) if exceed monthly limit, but **NOT ALLOWED** to proceed the submission if exceed yearly limit
+User can choose to change the claim details by submitting a new claim (***'Reapply' button***) or proceed with the current claim submission (***'Proceed' button***) if exceed MTD/YTD limit
 :::
 
 #### Claim Submission Sucessful
@@ -90,10 +94,15 @@ User can view all his claim transactions once enter this page
 - ***'View Change Log' button***: View change log of the claim
 
 ## Team Claim (Manager only)
-Manager can view all claim transactions of his team once enter this page
+Manager Types: (refer [Manager Authority Settings](payroll-setup.md#manager-authority-settings))
+
+1. **Approval Manager:** Can approve employee claim
+
+2. **Verify Manager:** Cannot approve employee claim
 
 ![team-claim](../../../../static/img/integration/hrms/e-claim/team-claim.png)
 
+- Manager can view all claim transactions of his team once enter this page
 - Manager can apply filter and sorting order to view different claim transaction listing:
     - Filtering options:
         - Expenses type
@@ -132,7 +141,7 @@ The following checkings will be carried out when manager approving a claim:
 
 2. **YTD Claim Over Limit:**
     - The app will prompt this dialog box if total approval amount (including previous claim transactions) already exceed the yearly limit of the expenses type
-    - Manager is **NOT ALLOWED** to approve claim transaction that already exceed the year limit
+    - Manager can choose to cancel the claim approval (***'Back' button***) or proceed with the current claim approval (***'Proceed' button***)
 
         ![ytd-over-limit](../../../../static/img/integration/hrms/e-claim/ytd-over-limit.png)
 

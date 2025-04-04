@@ -29,9 +29,9 @@ description: An E TMS report guide in SQL Payroll
 
 - Shows all log pairs processed in Sync Cloud
 - **'*' symbol:** Adjusted log
-- ***'(by mgr)' label:***  Log is clocked by manager through SQL HRMS app
-- Overtime pairs will only list those OT records that has been confirm by HR and posted to Pending Overtime with claimable more than 0
+- ***'(by mgr)' label:***  Log is clocked by manager through SQL HRMS app  
 - **'-' symbol:** Employee do not have any clock in/clock out records for that session
+- Overtime pairs will only list those OT records that has been confirm by HR and posted to Pending Overtime with claimable more than 0
 
 ### Attendance Reward
 
