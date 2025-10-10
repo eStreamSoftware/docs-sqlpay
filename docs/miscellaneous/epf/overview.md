@@ -22,6 +22,20 @@ tags: ["SQL Payroll", "EPF"]
 
 ![contribution-rate-2](../../../static/img/miscellaneous/epf/contribution-rate-2.png)
 
+## EPF Table
+
+This function is to show a list of EPF Amount which is need to be pay/deduct from the Salary by Employee & Employer.
+
+1. User can manually change the Rate by Amount or by percentage.
+2. Just Click Rebuild after the changes.
+3. Any changes here will not affect the Process of Payroll.
+
+![epf-table](../../../static/img/miscellaneous/epf/epf-table.jpg)
+
+:::info[Government Official Portal]
+    [Kumpulan Wang Simpanan Pekerja](http://www.kwsp.gov.my/)
+:::
+
 ## Frequently Asked Questions (FAQs)
 
 ### How Does SQL Payroll manage EPF contributions?
@@ -42,6 +56,8 @@ You can set the EPF rate at 19% for employees In the management level. The emplo
 ### My employee turns 60 years old this year, what should their EPF contribution rate be?
 
 - If employee is above 60 years old, the employee’s EPF contribution rate will be 0% while the employer’s contribution will be 4%
+
+![over-60](../../../static/img/miscellaneous/epf/over-60.png)
 
 ### Are employees above the age of 75 required to contribute for EPF?
 
