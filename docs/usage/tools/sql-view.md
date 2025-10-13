@@ -1,4 +1,5 @@
 ---
+sidebar_position: 1
 title: SQL View
 description: A guide of setting user view on certain records and data
 slug: /usage/tools/sql-view

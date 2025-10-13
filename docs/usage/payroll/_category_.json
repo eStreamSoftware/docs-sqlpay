@@ -1,6 +1,6 @@
 {
     "label": "Payroll",
-    "position": 2,
+    "position": 3,
     "link": {
         "type": "generated-index",
         "description": "Covers all payroll user guide of SQL Payroll",

@@ -1,0 +1,9 @@
+{
+    "label": "Leave",
+    "position": 4,
+    "link": {
+        "type": "generated-index",
+        "description": "A guide of leave for SQL Payroll",
+        "slug": "/usage/leave"
+    }
+}

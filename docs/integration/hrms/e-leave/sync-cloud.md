@@ -2,6 +2,7 @@
 sidebar_position: 3
 title: Sync Cloud
 description: An E Leave sync cloud guide in SQL Payroll
+slug: /integration/hrms/e-leave/sync-cloud
 ---
 
 **Step 1:** Cloud Icon | Sync Cloud… | Leave App | Sync All
