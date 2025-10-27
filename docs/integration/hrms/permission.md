@@ -146,4 +146,54 @@ If you have disabled this feature previously, you can skip all of the following 
 
 **Step 2:** Select ***'Allow Full Access'***  
 
-    ![ios-photo3](../../../static/img/integration/hrms/permission/ios-photo3.png)  
+    ![ios-photo3](../../../static/img/integration/hrms/permission/ios-photo3.png)
+
+## Nearby Devices / Bluetooth
+
+### Android  
+
+**From SQL HRMS app**  
+
+:::info
+For **Android 11 and below**, may skip to Step 2  
+:::
+
+**Step 1:** Select ***'Allow'***   
+
+    ![android-bluetooth1](../../../static/img/integration/hrms/permission/android-bluetooth1.png)
+
+**Step 2:** Turn on ***Bluetooth service***  
+
+    ![android-bluetooth2](../../../static/img/integration/hrms/permission/android-bluetooth2.png)
+
+**From Device Settings**  
+
+:::info
+Only for **Android 12 and above**  
+:::
+
+**Step:** App Info | App permissions | Nearby devices | Select ***'Allow'***  
+
+    ![android-bluetooth3](../../../static/img/integration/hrms/permission/android-bluetooth3.png)  
+
+### iOS
+
+**From SQL HRMS app**  
+
+**Step 1:** Select ***'Allow'***  
+
+    ![ios-bluetooth1](../../../static/img/integration/hrms/permission/ios-bluetooth1.png)  
+
+**Step 2:** Select ***'Settings'*** | Toggle ***'Bluetooth'*** on | Return to SQL HRMS   
+
+    ![ios-bluetooth2](../../../static/img/integration/hrms/permission/ios-bluetooth2.png)  
+
+**From Device Settings**  
+
+**Step 1:** Settings | Search for ***'SQL HRMS'*** | Toggle ***'Bluetooth'*** on  
+
+    ![ios-bluetooth3](../../../static/img/integration/hrms/permission/ios-bluetooth3.png)  
+
+**Step 2:** Settings | Bluetooth | Toggle ***'Bluetooth'*** on  
+
+    ![ios-bluetooth4](../../../static/img/integration/hrms/permission/ios-bluetooth4.png)  

@@ -66,12 +66,24 @@ Option 2: Click on ***'P' button*** | Select date
 **Step 3:** Enter Break Time
 - May add up to 3 break times
 
-**Step 4:** Select Rules  
-- ***'Clock In / Clock Out' checkbox:*** Requires to clock in / out in SQL HRMS app
-- ***'GPS Monitoring' checkbox:*** Post status update if employee left work location
+**Step 4:** Select a Clock Method
+- ***'GPS' checkbox:*** Clock in / out using employee's location in SQL HRMS app
+- ***'QR' checkbox:*** Clock in / out using QR Code generated from SQL HRMS app and scan it on SQL Clock In app
+
+:::info
+1. Only one clock method can be selected. However, if none of the clock method is selected, then the clock in / out button in SQL HRMS app will be disabled and employee does not require to clock in / out.
+2. Clock Method on days without work session, public holiday and rest day is by default **GPS**.
+:::
+
+**Step 5:** Select Rules  
+- ***'GPS Monitoring' checkbox:*** Post status update if employee left work location 
 - ***'Site Photo' checkbox:*** Requires to take photo before clock in / out (User cannot upload picture from album)
 
-**Step 5:** Save
+:::info
+***'GPS Monitoring'*** and ***'Site Photo'*** will be disabled if ***'QR'*** or ***no clock method*** is selected
+:::
+
+**Step 6:** Save  
 
 **Optional**
 - User may select ***'Leave Rules'*** if applicable

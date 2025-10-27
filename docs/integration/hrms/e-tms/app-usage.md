@@ -13,14 +13,17 @@ Enable **Autostart** for SQL HRMS to ensure E TMS features work accordingly (ref
     ![dashboard](../../../../static/img/integration/hrms/e-tms/dashboard.png)  
 
 - **Session Card:** User's work session shift time
+    - Icon on the top right corner (green box) indicates the clock method (by GPS or QR) of the day. If there is no icon displayed, it means that user is not required to clock for that day  
     - It shows user's first Clock In and last Clock Out of the day with an estimated calculation of late in and early out
     - User can tap on the card to direct to User's Attendance Log
     - User can tap on the ***'Clock In' button*** to direct to Clock In / Clock Out page
-        - If no work session is assigned, the button will be disabled  
+        - If no work session is assigned or no clock method is selected, the button will be disabled  
 - **Upcoming Holiday:** User's upcoming public holidays
 
 
 ## Clock In / Clock Out
+
+### By GPS
 
 | **Button** | **Explanation** |
 | :--------- | :-------------- |
@@ -28,8 +31,8 @@ Enable **Autostart** for SQL HRMS to ensure E TMS features work accordingly (ref
 | ![clock-button2](../../../../static/img/integration/hrms/e-tms/clock-button2.png) | SQL HRMS app is trying to get user's current location | 
 | ![clock-button3](../../../../static/img/integration/hrms/e-tms/clock-button3.png) | User is not within work location. However, if user is really within their work location, SQL HRMS app will continuously try to get a more accurate position so that user will be able to Clock In / Clock Out | 
 | ![clock-button4](../../../../static/img/integration/hrms/e-tms/clock-button4.png) | User's location is mocked and is not allowed to Clock In / Out | 
-| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User is within work location and is allowed to Clock In | 
-| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User is within work location and is allowed to Clock Out | 
+| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User is within work location and is allowed to Clock In |  
+| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User is within work location and is allowed to Clock Out |  
 
 **Clock In**  
     
@@ -66,7 +69,34 @@ If user forget to clock out, the app will reset the time tracking after 10 hours
     - An earn replacement leave application will be posted when employee clocked out
     - When employee tap the ***'Clock Out' button***, a **'Claim As Leave'** dialog will be prompt that allows the employee to pick the leave type that they want to claim
 
-    ![clock-out7](../../../../static/img/integration/hrms/e-tms/clock-out7.png)
+    ![clock-out7](../../../../static/img/integration/hrms/e-tms/clock-out7.png)  
+
+### By QR  
+
+| **Button** | **Explanation** |  
+| :--------- | :-------------- |  
+| ![clock-button7](../../../../static/img/integration/hrms/e-tms/clock-button7.png) | SQL HRMS app's Bluetooth service is unable to start. This may due to the following reasons: <br/><br/> 1. User's Bluetooth service is not enabled <br/> 2. The required nearby devices permission is not allowed <br/><br/> Refer [Bluetooth Service and Nearby Devices Permission](../permission#nearby-devices--bluetooth) |  
+| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User is allowed to Clock In |  
+| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User is allowed to Clock Out |  
+
+**Clock In**  
+
+    ![clock-in3](../../../../static/img/integration/hrms/e-tms/clock-in3.png)  
+
+- **'Attachments'** field will not be available  
+- Proceed to Clock In will generate a QR Code that will be scanned by SQL Clock In app  
+    - User can adjust the brightness of the screen with the slider  
+    - The QR Code will only be valid for 20s before user will need to regenerate a new QR Code  
+
+**Clock Out**  
+
+    ![clock-out8](../../../../static/img/integration/hrms/e-tms/clock-out8.png)  
+
+- If ***'Claim OT' switch*** is turned on, it will go through similar OT validations as *By GPS* before QR Code is generated  
+
+:::warning
+Screenshotting the QR Code is not allowed!
+:::
 
 ### Work Location
 
@@ -74,7 +104,12 @@ If user forget to clock out, the app will reset the time tracking after 10 hours
     
     ![work-location](../../../../static/img/integration/hrms/e-tms/work-location.png)  
 
+- **Purple Location icon:** Employee's current location
 - **Green Check icon:** Location that the employee is currently in
+
+:::info
+Multiple work locations with the same coordinate will be considered as one
+:::
 
 ## Work Session Calendar
 
@@ -86,7 +121,8 @@ User can view his own work session in calendar view
 
 - **Red font with purple box:** Public Holiday
 - **Purple box:** Rest Day
-- **Location icon:** Direct to Work Location page to view locations where the user is allowed to clock in / clock out on that day (refer [Work Location](#work-location))
+- **Icon (bottom right corner):** Clock Method
+- **Whole card:** Direct to [Work Location](#work-location) page to view locations where the user is allowed to clock in / clock out on that day
 
 ### Team Work Session
 
