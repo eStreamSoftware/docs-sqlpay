@@ -16,7 +16,6 @@ This feature is only available to **manager**.
 
 ![assignment](../../../../../../static/img/integration/vision/mi_creation/a-1.png)
 
-
 | Properties               | Description                                                                        | Note     |
 |:-------------------------|:-----------------------------------------------------------------------------------|:--------:|
 | **Title**                | The title of the mission.                                                          | Required |
@@ -50,7 +49,6 @@ Select a **Project**, **Job**, and **Task** from the dropdown menus. If any fiel
 ### Milestone and Rewards
 
 ![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.1.png)
-
 
 | Properties          | Description                                                           |
 |---------------------|-----------------------------------------------------------------------|
@@ -108,25 +106,28 @@ There are two types of payment methods:
 ### Participant Role
 
 #### Admin
-  - **Admin** is authorized to **manage and edit** the task. 
-  - Admin does not perform the task and therefore **is not entitled to any rewards**.
-  - By default, the creator will be added as Admin and cannot be removed by anyone. *(Employee with yellow crown, as shown in image below, is the creator.)* 
+
+- **Admin** is authorized to **manage and edit** the task.
+- Admin does not perform the task and therefore **is not entitled to any rewards**.
+- By default, the creator will be added as Admin and cannot be removed by anyone. *(Employee with yellow crown, as shown in image below, is the creator.)*
 
 #### Participant
-  - **Participant** is the employee responsible for performing the mission.
-  - They are eligible to receive the reward.
+
+- **Participant** is the employee responsible for performing the mission.
+- They are eligible to receive the reward.
 
 #### Consultant
-  - **Consultant** provide **guidance or advice** on the mission but do not perform the task.
-  - They are assigned in **[Step 2 - Rewards Information, Consultant Rewards section](#consultant-rewards)**.
+
+- **Consultant** provide **guidance or advice** on the mission but do not perform the task.
+- They are assigned in **[Step 2 - Rewards Information, Consultant Rewards section](#consultant-rewards)**.
 
 ### Features
 
 ![Participants](../../../../../../static/img/integration/vision/mi_creation/participant.png)
 
-| Properties              | Description                                                              | 
+| Properties              | Description                                                              |
 |:------------------------|:-------------------------------------------------------------------------|
-| **Apply Group**         | Allow you to apply group. See more in [**group**](../../../group#apply-group).     | 
+| **Apply Group**         | Allow you to apply group. See more in [**group**](../../../group#apply-group).     |
 | **Clear**               | Clears all content on the current page.                                  |
 | **Make Quest**          | Converts your mission into a Quest. See more in [**quest**](quest).      |
 | **Add Person Icon**     | Add employees as the participant type.                                   |
@@ -145,10 +146,10 @@ There are two types of payment methods:
 
 #### Side functions
 
-| Properties              | Description                                                              | 
+| Properties              | Description                                                              |
 |:------------------------|:-------------------------------------------------------------------------|
-| **Search**              | Allows you to search for employees by their names.                       | 
-| **[Filter](assignment#filter)**   | Allow you to filter and sort the employee list.                | 
+| **Search**              | Allows you to search for employees by their names.                       |
+| **[Filter](assignment#filter)**   | Allow you to filter and sort the employee list.                |
 | **Select All**          | Allow you to select all employees at once.                               |
 
 #### Filter

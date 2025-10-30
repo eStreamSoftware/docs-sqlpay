@@ -27,9 +27,10 @@ The mission card displays key details of the mission, including the Title, Creat
 The Filter button allows you to filter your recent missions. Duplicated missions can be filtered by **Type**:
 
 **Type:**
-- Assignment 
-- Target  
-- Quest Assignment 
-- Quest Target  
+
+- Assignment
+- Target
+- Quest Assignment
+- Quest Target
 
 ![duplication filter](../../../../../../static/img/integration/vision/mi_creation/d-2.png)

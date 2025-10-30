@@ -29,17 +29,16 @@ This feature is only available to **manager**.
 
 ![target](../../../../../../static/img/integration/vision/mi_creation/t-2.jpg)
 
-
-| Properties                          | Description                                                                              | Note         | 
-|:------------------------------------|:-----------------------------------------------------------------------------------------|:------------:| 
-| **[Grouping Type](#grouping-type)** | Section to select the target grouping type, either *Individual* or *Team*.               | Required     | 
-| **[Strategy](#strategy)**           | Section to select the target strategy, with options predefined in **Company Configuration**. | Required     | 
-| **[Condition](#condition)**         | Section to select the target condition. *(e.g., Between, More than)*                  | Required     | 
-| **[Target and Rewards](#target-and-rewards)**| Section to enter details about the targets and their associated rewards.        | At least one | 
-| **[Payment By](#payment-by)**       | Section to select the payment method and specify the payout month.                       | Required     | 
-| **Clear**                           | Clears all content on the current page.                                                  | -            | 
-| **Back**                            | Navigates to the previous page.                                                          | -            | 
-| **Next**                            | Navigates to the next page.                                                              | -            | 
+| Properties                          | Description                                                                              | Note         |
+|:------------------------------------|:-----------------------------------------------------------------------------------------|:------------:|
+| **[Grouping Type](#grouping-type)** | Section to select the target grouping type, either *Individual* or *Team*.               | Required     |
+| **[Strategy](#strategy)**           | Section to select the target strategy, with options predefined in **Company Configuration**. | Required     |
+| **[Condition](#condition)**         | Section to select the target condition. *(e.g., Between, More than)*                  | Required     |
+| **[Target and Rewards](#target-and-rewards)**| Section to enter details about the targets and their associated rewards.        | At least one |
+| **[Payment By](#payment-by)**       | Section to select the payment method and specify the payout month.                       | Required     |
+| **Clear**                           | Clears all content on the current page.                                                  | -            |
+| **Back**                            | Navigates to the previous page.                                                          | -            |
+| **Next**                            | Navigates to the next page.                                                              | -            |
 
 ### Grouping Type
 
@@ -94,7 +93,7 @@ Suppose you’re managing a Sales Department and want to track Q1 sales targets:
 
 **Condition** specifies the criteria for calculating target rewards.
 
-#### A. Between 
+#### A. Between
 
 The "Between" condition is designed to allocate rewards based on an employee’s achievement falling within a defined range. Specifically, rewards are granted when an employee's achievement meets the following criteria:
 
@@ -160,7 +159,6 @@ The "Less Than and Equal" condition is applied to reward employees who achieve r
 
 ![target](../../../../../../static/img/integration/vision/mi_creation/t-2.4.png)
 
-
 | Properties  | Description                                                                                              |
 |-------------|----------------------------------------------------------------------------------------------------------|
 | **Target**  | Text field to input the target amount. (Note: Only the **Between** condition will have two text fields.) |
@@ -193,26 +191,31 @@ There are two types of payment methods:
 ## Step 3 - Participants Information
 
 ### Participant Role
+
 The participant role in **Team and Individual Target** are different and works differently:
 
 #### Admin
-  - **Admin** is authorized to **manage and edit** the task. 
-  - Admin does not perform the task and therefore **is not entitled to any rewards**.
-  - By default, the creator will be added as Admin and cannot be removed by anyone. *(Employee with yellow crown, as shown in image below, is the creator.)* 
+
+- **Admin** is authorized to **manage and edit** the task.
+- Admin does not perform the task and therefore **is not entitled to any rewards**.
+- By default, the creator will be added as Admin and cannot be removed by anyone. *(Employee with yellow crown, as shown in image below, is the creator.)*
 
 #### Team Leader *(Team only)*
-  - The **Team Leader** is responsible for **leading the mission**. 
-  - A **leader is required** in a team target.
-  - The leader does not contribute to the target directly, but is **entitled to rewards based on the combined performance of the Team Members**, as defined in **[Step 2 - Rewards Information](#step-2---rewards-information)**. See **[Grouping Type](#grouping-type)** for more details.
+
+- The **Team Leader** is responsible for **leading the mission**.
+- A **leader is required** in a team target.
+- The leader does not contribute to the target directly, but is **entitled to rewards based on the combined performance of the Team Members**, as defined in **[Step 2 - Rewards Information](#step-2---rewards-information)**. See **[Grouping Type](#grouping-type)** for more details.
 
 #### Team Members *(Team only)*
-  - **Team Members** are employees who **contribute their target achievements** toward the team goal.
-  - The **combined performance of all team memebers** determines whether the Team Leader qualifies for a reward.
-  - Rewards are **given only to Team Leader** if the total achievements meet the target set in **[Step 2 - Rewards Information](#step-2---rewards-information)**. See **[Grouping Type](#grouping-type)** for more details.
+
+- **Team Members** are employees who **contribute their target achievements** toward the team goal.
+- The **combined performance of all team memebers** determines whether the Team Leader qualifies for a reward.
+- Rewards are **given only to Team Leader** if the total achievements meet the target set in **[Step 2 - Rewards Information](#step-2---rewards-information)**. See **[Grouping Type](#grouping-type)** for more details.
 
 #### Participant
-  - **Participant** is the employee responsible for performing the mission.
-  - They are eligible to receive the reward.
+
+- **Participant** is the employee responsible for performing the mission.
+- They are eligible to receive the reward.
 
 ### Features
 
@@ -220,9 +223,9 @@ The participant role in **Team and Individual Target** are different and works d
 |:-----------:|:-----------------:|
 | ![Team Target](../../../../../../static/img/integration/vision/mi_creation/participant-team.png) | ![Individual Target](../../../../../../static/img/integration/vision/mi_creation/participant.png) |
 
-| Properties              | Description                                                              | 
+| Properties              | Description                                                              |
 |:------------------------|:-------------------------------------------------------------------------|
-| **Apply Group**         | Allow you to apply group. See more in [**group**](../../../group#apply-group).     | 
+| **Apply Group**         | Allow you to apply group. See more in [**group**](../../../group#apply-group).     |
 | **Clear**               | Clears all content on the current page.                                  |
 | **Make Quest**          | Converts your mission into a Quest. See more in [**quest**](quest).      |
 | **Add Person Icon**     | Add employees as the participant type.                                   |
@@ -241,8 +244,8 @@ The participant role in **Team and Individual Target** are different and works d
 
 #### Side functions
 
-| Properties              | Description                                                              | 
+| Properties              | Description                                                              |
 |:------------------------|:-------------------------------------------------------------------------|
-| **Search**              | Allows you to search for employees by their names.                       | 
-| **[Filter](assignment#filter)**   | Allow you to filter and sort the employee list.                | 
+| **Search**              | Allows you to search for employees by their names.                       |
+| **[Filter](assignment#filter)**   | Allow you to filter and sort the employee list.                |
 | **Select All**          | Allow you to select all employees at once.                               |

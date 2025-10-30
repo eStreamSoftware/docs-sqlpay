@@ -2,6 +2,8 @@
 sidebar_position: 4
 title: FAQ
 description: E-Leave Frequently Asked Questions
+slug: /integration/hrms/e-leave/faq
+tags: ["SQL Payroll", "FAQ", "Register", "Email", "E Leave"]
 ---
 
 ## Leave Applications & Approvals
@@ -135,3 +137,29 @@ This occurs when:
 :::info[Reminder]
 If you rely on HRMS for leave and claim applications, always finish with **Update Payroll** so records are posted to SQL Payroll.
 :::
+
+### 13. How to register the staff email to access the E Leave?
+
+#### Register Setup
+
+1. **Update one email address** for each employee (staff) in **Maintain Employee**.
+
+   ![register-setup-screen](../../../../static/img/faq/register-email-eleave/register-setup.png)
+
+2. Go to **Cloud → Sync Cloud..**
+
+3. Click **Sync Now**.
+
+![register-sync](../../../../static/img/faq/register-email-eleave/register-sync.jpg)
+
+### 14. How to deregister the staff email to access the E Leave?
+
+1. Remove the staff email from Maintain Employee.
+
+![remove-staff-email](../../../../static/img/faq/register-email-eleave/remove-staff-email.png)
+
+2. Access to menu : Cloud | Sync Cloud..
+
+3. Click Sync Now to update.
+
+![remove-sync](../../../../static/img/faq/register-email-eleave/remove-sync.jpg)

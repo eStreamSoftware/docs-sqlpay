@@ -6,13 +6,13 @@ sidebar_position: 3
 
 :::info[Note]
 
-These feature are available to both **manager** and **employee**.  
+These feature are available to both **manager** and **employee**.
 
 :::
 
 ## Gift Redemption
 
-**1. Gift Filter Type**
+**1. Gift Filter Type**:
 
 |Gift Category Filter Chip|Filter Drawer|
 |:--------------------------------|:--------------------------------|
@@ -33,7 +33,7 @@ These feature are available to both **manager** and **employee**.
 
 :::info[Note]
 
-Once the gift has expired, it will no longer be displayed for redemption. The manager will need to [**update**](../gift/manager.md#gift-update) the redemption validity end date to reactivate the gift for future redemptions. 
+Once the gift has expired, it will no longer be displayed for redemption. The manager will need to [**update**](../gift/manager.md#gift-update) the redemption validity end date to reactivate the gift for future redemptions.
 
 :::
 
@@ -65,6 +65,7 @@ Users must wait for manager approval or issuance before the gift can be used.
 |:-----------------------------------|:-----------------------------------|
 
 ## Redemption Log
+
 The redemption log allows users to view the history of redeemed rewards, including who redeemed each reward and when it was redeemed.
 
 To view the redemption log, users can go to **More icon> Redemption Log**.

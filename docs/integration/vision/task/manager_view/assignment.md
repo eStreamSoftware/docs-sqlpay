@@ -23,15 +23,15 @@ Managers can view the assignment details that are created such as *title, descri
 
 1. Navigate to: **Progress** > **Employee Progress Card** (highlighted in red)
 
-![Manager Progress](../../../../../static/img/integration/vision/task/mgrProgress.png)
+   ![Manager Progress](../../../../../static/img/integration/vision/task/mgrProgress.png)
 
-:::info Info
+   :::info Info
 
-**Progress** tab: Shows employees who have not yet reached **100%** of the milestone.
+   **Progress** tab: Shows employees who have not yet reached **100%** of the milestone.
 
-**Completed** tab: Shows employees who have achieved **100%** of the milestone.
+   **Completed** tab: Shows employees who have achieved **100%** of the milestone.
 
-:::
+   :::
 
 2. Display employee's assignment details:
    - Total cash and coin(s) earned (**Highlighted in red**)
@@ -45,9 +45,9 @@ Managers can view the assignment details that are created such as *title, descri
 1. Navigate to: **Log File** > **Log File Card** (highlighted in red)
    - Manager can view all unapproved log files submitted by the employees.
 
-![Manager Log File Submission](../../../../../static/img/integration/vision/task/mgrLogFile.png)
+   ![Manager Log File Submission](../../../../../static/img/integration/vision/task/mgrLogFile.png)
 
-2.  Manager can view the log file details as shown below.
+2. Manager can view the log file details as shown below.
       - **Actions:**
          - Override
          - Approve
@@ -128,7 +128,7 @@ Finalising assignment is an **irreversible** action.
 
 1. Press **Info Icon** (highlighted in red)
 
-![Reward Info Icon](../../../../../static/img/integration/vision/task/rwdInfoIcon.png)
+   ![Reward Info Icon](../../../../../static/img/integration/vision/task/rwdInfoIcon.png)
 
 2. User can view the milestone and bonus rewards
 
@@ -140,7 +140,7 @@ The code will match with the code in the summary table.
 
 ### Employee Progress
 
-1.  Press **Employee Name** (highlighted in red)
+1. Press **Employee Name** (highlighted in red)
 
 ![Summary Table](../../../../../static/img/integration/vision/task/summaryTable-1.png)
 

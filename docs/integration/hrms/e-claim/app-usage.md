@@ -9,17 +9,19 @@ description: An E Claim features in SQL HRMS app guide
 ![dashboard](../../../../static/img/integration/hrms/e-claim/dashboard.png)
 
 - **Claim Status Count Summary**:
-    - User's total approved, pending and rejected claims in the current year
-    - User can tap on each status to view claims with the respective status
+        - User's total approved, pending and rejected claims in the current year
+        - User can tap on each status to view claims with the respective status
 - **Claim Amount Summary**: User's total amount of pending and approved claims submitted in the current year
 - **Claim Balance Summary**: User’s pending and approved claims on each expenses types by month and by year
 
 ## Claim Submission
-**Step 1:** 
+
+**Step 1:**
 
 **Default Claim:** Select expense type, claim date, amount and description
 
 **E-Invoice Claim:** Select attachment that includes a **VALID** E-Invoice QR code
+
 - User can view the MTD limit, YTD limit and claim balance for each selected expenses type
 - For E-Invoice Claim, post date, ref 1 and ref 2 will be filled in based on the E-Invoice and are not editable
 - User need to allow Camera and Photos (only for iOS device) permission in order to continue the service (refer [Android Permission](../permission.md#android-2) and [iOS Permission](../permission.md#ios-2))
@@ -29,7 +31,8 @@ description: An E Claim features in SQL HRMS app guide
 ![claim-submission](../../../../static/img/integration/hrms/e-claim/claim-submission.png)
 
 #### Claim Submission Warning Dialog Box
-The app will help to do the following checkings after user click on the ***'Submit' button***: 
+
+The app will help to do the following checkings after user click on the ***'Submit' button***:
 
 1. **Exceed MTD Limit:** Prompts if total submitted amount (including previous submission) exceed the monthly limit of the expenses type
 
@@ -44,6 +47,7 @@ User can choose to change the claim details by submitting a new claim (***'Reapp
 :::
 
 #### Claim Submission Sucessful
+
 The app will prompt this dialog message upon successful submission
 
 1. Successful Dialog Box
@@ -59,20 +63,21 @@ The app will prompt this dialog message upon successful submission
     ![claim-successful-email-noti](../../../../static/img/integration/hrms/e-claim/claim-successful-email-noti.png)
 
 ## Claim Status
+
 User can view all his claim transactions once enter this page
 
 ![claim-status](../../../../static/img/integration/hrms/e-claim/claim-status.png)
 
 - User can apply filter and sorting order to view different claim transaction listing:
-    - Filtering options:
-        - Expenses type
-        - Date range
-        - Claim status
-    - Sorting options:
-        - Date
-        - Expenses type
-        - Claim Status  
-- Type of claim status:  
+        - Filtering options:
+            - Expenses type
+            - Date range
+            - Claim status
+        - Sorting options:
+            - Date
+            - Expenses type
+            - Claim Status
+- Type of claim status:
 
     | **Icon** | **Claim Status** | **Remark** |
     | :------- | :--------------- | :--------- |
@@ -86,31 +91,33 @@ User can view all his claim transactions once enter this page
 
 ![claim-detail](../../../../static/img/integration/hrms/e-claim/claim-detail.png)
 
-- User are allowed to edit the claim transaction details or cancel the claim on **Pending Approval** claims.  
+- User are allowed to edit the claim transaction details or cancel the claim on **Pending Approval** claims.
 - ***'View Change Log' button***: View change log of the claim
 
 ## Team Claim (Manager only)
+
 Manager can view all claim transactions of his team once enter this page
 
 ![team-claim](../../../../static/img/integration/hrms/e-claim/team-claim.png)
 
 - Manager can apply filter and sorting order to view different claim transaction listing:
-    - Filtering options:
-        - Expenses type
-        - Date range
-        - Claim Status
-        - Branch
-        - Department
-    - Sorting options:
-        - Date
-        - Expenses type
-        - Claim Status
+        - Filtering options:
+            - Expenses type
+            - Date range
+            - Claim Status
+            - Branch
+            - Department
+        - Sorting options:
+            - Date
+            - Expenses type
+            - Claim Status
 
 ### Claim Approval
 
 ![claim-approval](../../../../static/img/integration/hrms/e-claim/claim-approval.png)
 
 - Managers can apply different actions on his team’s claim transaction based on the claim status
+
     | **Claim Status** | **Allowed Actions** |
     | :--------------- | :------------------ |
     | Pending Approval | Approve, Reject |
@@ -122,7 +129,8 @@ Manager can view all claim transactions of his team once enter this page
 - ***'View Change Log' button***: View change log of the claim
 
 #### Claim Approval Warning Dialog Box
-The following checkings will be carried out when manager approving a claim: 
+
+The following checkings will be carried out when manager approving a claim:
 
 1. **MTD Claim Over Limit:**
     - The app will prompt this dialog box if total approval amount (including previous claim transaction) already exceed the monthly limit of the expenses type
@@ -137,18 +145,22 @@ The following checkings will be carried out when manager approving a claim:
         ![ytd-over-limit](../../../../static/img/integration/hrms/e-claim/ytd-over-limit.png)
 
 #### Claim Comment Dialog Box
+
 Manager can enter a comment for the claim approval / claim status update (optional) before proceed the updates
 
 ![claim-comment-dialog](../../../../static/img/integration/hrms/e-claim/claim-comment-dialog.png)
 
 #### Claim Status Update Successful
+
 The app will prompt a dialog message upon successful update on the claim status
 
 ![claim-status-update-successful](../../../../static/img/integration/hrms/e-claim/claim-status-update-successful.png)
 
 ### Notification
+
 #### Claim Approval
-User will receive the following notification once manager approves his claim: 
+
+User will receive the following notification once manager approves his claim:
 
 1. App Notification
 
@@ -159,7 +171,8 @@ User will receive the following notification once manager approves his claim:
     ![claim-approval-email-noti](../../../../static/img/integration/hrms/e-claim/claim-approval-email-noti.png)
 
 ### Claim Approval Failed
-User will receive the following notification if manager failed to approve his claim (exceed year limit): 
+
+User will receive the following notification if manager failed to approve his claim (exceed year limit):
 
 1. App Notification
 
@@ -170,7 +183,8 @@ User will receive the following notification if manager failed to approve his cl
     ![claim-approval-failed-email-noti](../../../../static/img/integration/hrms/e-claim/claim-approval-failed-email-noti.png)
 
 ### Claim Approval Rejected
-User will receive the following notification once manager rejects his leave: 
+
+User will receive the following notification once manager rejects his leave:
 
 1. App Notification
 
@@ -181,6 +195,7 @@ User will receive the following notification once manager rejects his leave:
     ![claim-approval-rejected-email-noti](../../../../static/img/integration/hrms/e-claim/claim-approval-rejected-email-noti.png)
 
 ## Activity Center
+
 User can view his and his team’s (manager only) claim transaction updates from the Activity Center (Dashboard | Activity Center (Bell icon on top left))
 
 ![activity-center](../../../../static/img/integration/hrms/e-claim/activity-center.png)

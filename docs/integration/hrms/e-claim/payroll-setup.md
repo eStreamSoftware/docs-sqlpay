@@ -5,14 +5,15 @@ description: An E Claim setup guide in SQL Payroll
 ---
 
 ## Maintain Claim
+
 **Step 1:** Payroll | Maintenance | Maintain Claim… | Select a Claim/ Create New
 
 **Step 2:** Set Yearly Limit and Monthly Limit
-Option 1: Maintain Claim 
+Option 1: Maintain Claim
 
 ![maintain-claim1](../../../../static/img/integration/hrms/e-claim/maintain-claim1.png)
 
-Option 2: Maintain Employee | Claim Limit tab 
+Option 2: Maintain Employee | Claim Limit tab
 
 ![maintain-claim2](../../../../static/img/integration/hrms/e-claim/maintain-claim2.png)
 

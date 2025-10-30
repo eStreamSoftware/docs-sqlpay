@@ -2,6 +2,7 @@
 sidebar_position: 2
 title: App Usage
 description: An E Leave features in SQL HRMS app guide
+slug: /integration/hrms/e-leave/app-usage
 ---
 
 ## Dashboard
@@ -9,27 +10,29 @@ description: An E Leave features in SQL HRMS app guide
 ![dashboard](../../../../static/img/integration/hrms/e-leave/dashboard.png)
 
 - **Leave Status Count Summary**
-    - User’s total approved, pending and rejected leaves in the current year
-    - User can tap on each status to view leave applications with the respective status
-- **Upcoming Leave**: User’s upcoming approved leave  
+        - User’s total approved, pending and rejected leaves in the current year
+        - User can tap on each status to view leave applications with the respective status
+- **Upcoming Leave**: User’s upcoming approved leave
 - **Leave Balance Summary (AL, MC and UL)**
-    - User can tap on the card to view detailed leave balance for all his leave types
+        - User can tap on the card to view detailed leave balance for all his leave types
 
 ## Leave Balance
 
-### Employee
+### Employee (Leave Balance)
+
 User can view leave balance of different year by navigating to different year
 
 ![leave-balance-employee](../../../../static/img/integration/hrms/e-leave/leave-balance-employee.png)
 
 ### Manager
+
 If user is a manager, he can view his team's leave balance by tapping on the employee card
 apply
 ![leave-balance-manager](../../../../static/img/integration/hrms/e-leave/leave-balance-manager.png)
 
 ## Leave Application
 
-### Employee
+### Employee (Leave Application)
 
 ![leave-app-employee](../../../../static/img/integration/hrms/e-leave/leave-app-employee.png)
 
@@ -37,7 +40,7 @@ apply
 
 **Step 2:** Select leave date, leave time, leave type, description
     - User can view year balance and leave taken for the selected leave type
-    - ***'I'm taking leave' checkbox*** : 
+    - ***'I'm taking leave' checkbox*** :
         - Checked: Normal leave application
         - Unchecked: Apply leave as OT replacement
     - User need to allow Camera and Photos (only for iOS device) permission to continue the service (refer [Android Permission](../permission.md#android-2) and [iOS Permission](../permission.md#ios-2))
@@ -49,6 +52,7 @@ If user is a manager and has the Manager Auto Approval access (set in payroll sy
 :::
 
 ### Apply Leave On Behalf (Manager only)
+
 Manager can help his team to apply leave on behalf by tapping on the employee card to switch employee
 
 ![apply-on-behalf](../../../../static/img/integration/hrms/e-leave/apply-on-behalf.png)
@@ -57,12 +61,14 @@ Manager can help his team to apply leave on behalf by tapping on the employee ca
 - Leave applied by Verify Manager will be posted as **Pending Approval**
 
 #### Skipped Public Holiday / Rest Day Dialog box
+
 App will automatically skipped all the public holidays and rest days if found within the applied date range
 
 ![skip-ph-rd](../../../../static/img/integration/hrms/e-leave/skip-ph-rd.png)
 
 #### Leave Application Warning Dialog Box
-The app will help to do the following checkings after user click on the ***'Submit' button***: 
+
+The app will help to do the following checkings after user click on the ***'Submit' button***:
 
 1. **Duplicate Leave Application:** Prompts if there is leave applied on the same date
 
@@ -79,10 +85,11 @@ The app will help to do the following checkings after user click on the ***'Subm
     ![exceed-ytd-dialog](../../../../static/img/integration/hrms/e-leave/exceed-ytd-dialog.png)
 
 :::info
-User can choose to change the leave details by submitting a new leave (***'Reapply' button***) or proceed (***'Proceed' button***) with the current leave application (not allowed if leave application exceeds year limit) 
+User can choose to change the leave details by submitting a new leave (***'Reapply' button***) or proceed (***'Proceed' button***) with the current leave application (not allowed if leave application exceeds year limit)
 :::
 
 #### Leave Application Successful
+
 1. Successful Dialog Box
 
     ![leave-successful-emp](../../../../static/img/integration/hrms/e-leave/leave-successful-emp.png)
@@ -99,18 +106,18 @@ User can choose to change the leave details by submitting a new leave (***'Reapp
 
 ![leave-status](../../../../static/img/integration/hrms/e-leave/leave-status.png)
 
-- User can view all his leave applications once enter this page. 
+- User can view all his leave applications once enter this page.
 - User can apply filter and sorting order to view different leave application listing:
-    - Filtering options:
-        - Leave type
-        - Date range
-        - Leave status
-    - Sorting options:
-        - Date
-        - Leave type
-        - Leave status
+        - Filtering options:
+            - Leave type
+            - Date range
+            - Leave status
+        - Sorting options:
+            - Date
+            - Leave type
+            - Leave status
 - User can batch edit cancel **Approved / Pending Approval / Pending Verification / Rejected** leave applications
-- Type of leave status:  
+- Type of leave status:
 
     | **Icon** | **Leave Status** | **Remark** |
     | :------- | :--------------- | :--------- |
@@ -125,10 +132,11 @@ User can choose to change the leave details by submitting a new leave (***'Reapp
 
 ![leave-detail](../../../../static/img/integration/hrms/e-leave/leave-detail.png)
 
-- User are allowed to edit the leave application details or cancel the leave on **Approved / Pending Approval / Pending Verification** leave applications.  
+- User are allowed to edit the leave application details or cancel the leave on **Approved / Pending Approval / Pending Verification** leave applications.
 - ***'View Change Log' button:*** View change log of the leave
 
 ## Team Leave (Manager only)
+
 Manager Types: (refer [Manager Authority Settings](payroll-setup.md#manager-authority-settings))
 
 1. **Approval Manager:** Can approve employee leave
@@ -137,48 +145,49 @@ Manager Types: (refer [Manager Authority Settings](payroll-setup.md#manager-auth
 
 ![team-leave](../../../../static/img/integration/hrms/e-leave/team-leave.png)
 
-- Manager can view all leave applications of his managing team once enter this page. 
+- Manager can view all leave applications of his managing team once enter this page.
 - Manager can apply filter and sorting order to view different leave application listing:
-    - Filtering options:
-        - Leave type
-        - Show replacement leave only
-        - Date range
-        - Leave Status
-        - Branch
-        - Department
-    - Sorting options:
-        - Date
-        - Leave type
-        - Leave Status
-- Manager can batch edit leave application status by clicking on the top right icon. (refer [Batch Leave Approval](#batch-leave-approval)) 
+        - Filtering options:
+            - Leave type
+            - Show replacement leave only
+            - Date range
+            - Leave Status
+            - Branch
+            - Department
+        - Sorting options:
+            - Date
+            - Leave type
+            - Leave Status
+- Manager can batch edit leave application status by clicking on the top right icon. (refer [Batch Leave Approval](#batch-leave-approval))
 
 ### Leave Approval
 
 ![leave-approval](../../../../static/img/integration/hrms/e-leave/leave-approval.png)
 
 - ***'View Change Log’ button:*** View change log of the leave
-- Managers can apply different actions on his team’s leave application based on the leave status and his authority 
-    - Actions that can be done by **Approval Manager**: 
-        | **Leave Status** | **Allowed Actions** |
-        | :--------------- | :------------------ |
-        | Pending Verification | Approve Reject |
-        | Pending Approval | Approve, Reject |
-        | Approved | Undo Approved, Reject |
-        | Approved (Sync) | - |
-        | Rejected | Approve, Undo Rejected |
-        | Cancelled | - |
-    - Actions that can be done by **Verify Manager**: 
-        | **Leave Status** | **Allowed Actions** |
-        | :--------------- | :------------------ |
-        | Pending Verification | Verify, Reject |
-        | Pending Approval | Undo Verify, Reject |
-        | Approved | Reject |
-        | Approved (Sync) | - |
-        | Rejected | Verify, Undo Reject |
-        | Cancelled | - |
+- Managers can apply different actions on his team’s leave application based on the leave status and his authority
+        - Actions that can be done by **Approval Manager**:
+            | **Leave Status** | **Allowed Actions** |
+            | :--------------- | :------------------ |
+            | Pending Verification | Approve Reject |
+            | Pending Approval | Approve, Reject |
+            | Approved | Undo Approved, Reject |
+            | Approved (Sync) | - |
+            | Rejected | Approve, Undo Rejected |
+            | Cancelled | - |
+        - Actions that can be done by **Verify Manager**:
+            | **Leave Status** | **Allowed Actions** |
+            | :--------------- | :------------------ |
+            | Pending Verification | Verify, Reject |
+            | Pending Approval | Undo Verify, Reject |
+            | Approved | Reject |
+            | Approved (Sync) | - |
+            | Rejected | Verify, Undo Reject |
+            | Cancelled | - |
 
 #### Leave Approval Warning Dialog Box
-The following checkings will be carried out when manager approving a leave: 
+
+The following checkings will be carried out when manager approving a leave:
 
 1. **MTD Leave Over Limit:**
     - Manager are allowed to proceed leave approval with same / other leave type (only if there are other leave type options) if total leave day applied (including previous leave application) already exceed the monthly limit of the leave type
@@ -200,16 +209,19 @@ The following checkings will be carried out when manager approving a leave:
         ![ytd-over-limit](../../../../static/img/integration/hrms/e-leave/ytd-over-limit.png)
 
 #### Leave Comment Dialog Box
+
 Manager can enter a comment for the leave approval (optional) before proceeding with the updates
 
 ![leave-comment-dialog](../../../../static/img/integration/hrms/e-leave/leave-comment-dialog.png)
 
 #### Leave Status Update Successful
+
 The app will prompt a dialog message upon successful update on the leave status
 
 ![leave-status-update-successful](../../../../static/img/integration/hrms/e-leave/leave-status-update-successful.png)
 
 ### Batch Leave Approval
+
 **Step 1:** Select the action that manager wants to carry out (Approval Manager View and Verify Manager View)
 
 ![batch-leave-edit1](../../../../static/img/integration/hrms/e-leave/batch-leave-edit1.png)
@@ -223,8 +235,10 @@ Batch Leave Approval will undergo the same checkings as Leave Approval and warni
 :::
 
 ### Leave Approval Notification
-#### Leave Approval
-User will receive the following notification once manager approves his leave: 
+
+#### Leave Approval Notify Message
+
+User will receive the following notification once manager approves his leave:
 
 1. App Notification
 
@@ -235,7 +249,8 @@ User will receive the following notification once manager approves his leave:
     ![leave-approval-email-noti](../../../../static/img/integration/hrms/e-leave/leave-approval-email-noti.png)
 
 #### Leave Approval Failed
-User will receive the following notification if manager fails to approve his leave (exceed year limit): 
+
+User will receive the following notification if manager fails to approve his leave (exceed year limit):
 
 1. App Notification
 
@@ -246,7 +261,8 @@ User will receive the following notification if manager fails to approve his lea
     ![leave-approval-failed-email-noti](../../../../static/img/integration/hrms/e-leave/leave-approval-failed-email-noti.png)
 
 #### Leave Rejected
-User will receive the following notification once manager rejects his leave: 
+
+User will receive the following notification once manager rejects his leave:
 
 1. App Notification
 
@@ -259,6 +275,7 @@ User will receive the following notification once manager rejects his leave:
 ## Leave Calendar
 
 ### My Leave Calendar
+
 User can view all the leave applied in calendar view (excluding rejected and cancelled leave applications)
 
 ![leave-calendar](../../../../static/img/integration/hrms/e-leave/leave-calendar.png)
@@ -266,13 +283,15 @@ User can view all the leave applied in calendar view (excluding rejected and can
 - User can tap on the leave cards to enter Leave Application Detail page to view more info / perform edit action
 
 ### Team Leave Calendar
-User can view his team’s applied leave in the calendar view 
+
+User can view his team’s applied leave in the calendar view
 
 ![leave-calendar-team](../../../../static/img/integration/hrms/e-leave/leave-calendar-team.png)
 
 - **Only manager** can tap on the leave cards that belongs to his managing team (refer [Manager Authority Settings](payroll-setup.md#manager-authority-settings)) to enter **Leave Approval** page to view more info / perform leave approval
 
 ## Activity Center
+
 User can view his and his team’s (manager only) leave application updates from the Activity Center (Dashboard | Activity Center | Bell icon (top left))
 
 ![activity-center](../../../../static/img/integration/hrms/e-leave/activity-center.png)

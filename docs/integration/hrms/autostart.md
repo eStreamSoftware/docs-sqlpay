@@ -8,8 +8,8 @@ description: A guide to enable Auto Start (Android only)
 This setting only available on **Android** devices that supports Auto Start
 :::
 
-**Step:** Search **'SQL HRMS'** | Allow Auto Start  
-    
+**Step:** Search **'SQL HRMS'** | Allow Auto Start
+
     ![autostart](../../../static/img/integration/hrms/autostart/autostart.png)
 
 :::info

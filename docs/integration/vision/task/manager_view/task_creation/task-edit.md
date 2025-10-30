@@ -10,7 +10,7 @@ This feature is only available to **manager** and **admin**.
 
 :::
 
-To edit a mission, go to **Main Dashboard | Manage Task | press on a mission card | press Edit Button**. 
+To edit a mission, go to **Main Dashboard | Manage Task | press on a mission card | press Edit Button**.
 
 ![edit task](../../../../../../static/img/integration/vision/mi_creation/e-1.png)
 
@@ -26,7 +26,7 @@ There are certain conditions for editing a mission, as stated in the table below
 | **Bonus**                 | Assignment            | Ongoing     | Once a member achieves 100% of a milestone, the associated bonus cannot be changed. You can add a new bonus, but it will also become unchangeable once applied. |
 | **Grouping Type, Strategy and Condition**| Target                | Ongoing     | Grouping type, strategy and condition cannot be changed after mission is ongoing. |
 
-#### Non-editable Field
+### Non-editable Field
 
 The non-editable fields will be greyed out as shown in the picture below.
 

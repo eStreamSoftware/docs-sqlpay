@@ -36,8 +36,8 @@ Manager can view all the created groups in **Main Dashboard | Manage Group**. In
  |:---:|---|:---:|
 
 1. Tap on the **group card** that you want to edit. You will see the previously saved *Group Name*, *Admin*, *Group Leader*, and *Group Members*.
-3. Edit by changing either the **Group Name**, **Admin**, **Group Leader** and **Group Members**.
-4. Tap **Save** to save the changes, or **Cancel** to discard the changes.
+2. Edit by changing either the **Group Name**, **Admin**, **Group Leader** and **Group Members**.
+3. Tap **Save** to save the changes, or **Cancel** to discard the changes.
 
 ### Delete Group
 
@@ -56,7 +56,6 @@ Group can be applied when creating a [**Target**](task/manager_view/task_creatio
 1. Tap **Group** icon.
 2. Select the group that you want to apply. You can select multiple groups.
 3. Tap **Apply**. You will see the selected groups members appear in the list.
-
 
 :::info[Note 1]
 
