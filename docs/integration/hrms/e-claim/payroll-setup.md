@@ -21,13 +21,21 @@ description: An E Claim setup guide in SQL Payroll
 SQL Payroll/SQL HRMS app will prioritize claim limit set in Maintain Employee over the claim limit in Maintain Claim
 :::
 
+## Notification Settings 
+
+1. Navigate to Company Profile > E HRMS tab 
+
+![notification-settings](../../../../static/img/integration/hrms/e-claim/notification-settings.png)
+
+- ***'Send EClaim Email Notification' checkbox***: Checked to allow E HRMS app to send claim email notifications to managers
+
 ## Manager Authority Settings
 
 1. Navigate to Maintain Employee > E HRMS tab
 
 ![manage-authority-settings](../../../../static/img/integration/hrms/e-claim/manage-authority-settings.png)
 
-- ***'Manager' checkbox***: Checked to make the employee a manager
+- **_'Manager' checkbox_**: Checked to make the employee a manager
 - **Manager Authority**:
   - Can Approve: Able to approve team’s claim submissions and leave applications
   - Can Review: Only able to verify team’s claim submissions and leave applications

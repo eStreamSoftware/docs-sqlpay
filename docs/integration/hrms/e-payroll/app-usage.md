@@ -29,6 +29,7 @@ User can view his monthly net pay and total net income
 
     - Payslip can be downloaded by tapping on the **_Download icon_** (top right corner)
     - User can tap on a payroll item for more detailed information
+    - The **_Date_** column is referring to **_Transaction Date_**
 
 ## EA Form
 
@@ -44,7 +45,7 @@ Navigate to Dashboard > Bell Icon (top left corner)
     ![activity-center](../../../../static/img/integration/hrms/e-payroll/activity-center.png)
 
 - Show employee’s latest payroll
-- User can tap on it will direct user to detailed payroll information
+- User can tap on it and will be directed to detailed payroll information
 
 ## Side Drawer
 
@@ -136,15 +137,16 @@ User can find frequently asked questions to understand better about SQL HRMS fea
     ![faq](../../../../static/img/integration/hrms/e-payroll/faq.png)
 
 #### User Feedback
+    
+     ![user-feedback](../../../../static/img/integration/hrms/e-payroll/user-feedback.png)
 
-User can submit feedback on problems that they are facing or suggestions on how we can further improve SQL HRMS
-
-    ![user-feedback](../../../../static/img/integration/hrms/e-payroll/user-feedback.png)
+- User can submit feedback on problems that they are facing or suggestions on how we can further improve SQL HRMS
+- All feedbacks are sent directly to SQL HRMS team
 
 ## Birthday Calendar
 
 User can view his team members’ and his own birthday dates in calendar view
 
-    ![birthday-calendar](../../../../static/img/integration/hrms/e-payroll/birthday-calendar.png)
+   ![birthday-calendar](../../../../static/img/integration/hrms/e-payroll/birthday-calendar.png)
 
 - **Pink dot:** There are birthdays on that date
