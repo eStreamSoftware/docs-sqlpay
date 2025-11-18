@@ -10,7 +10,7 @@ Enable **Autostart** for SQL HRMS to ensure E TMS features work accordingly (ref
 
 ## Dashboard
 
-    ![dashboard](../../../../static/img/integration/hrms/e-tms/dashboard.png)  
+    ![dashboard](../../../../static/img/integration/hrms/e-tms/dashboard.png)
 
 - **Session Card:** User's work session shift time
     - Icon on the top right corner (green box) indicates the clock method (by GPS or QR) of the day. If there is no icon displayed, it means that user is not required to clock for that day  
@@ -51,17 +51,17 @@ If user forget to clock out, the app will reset the time tracking after 10 hours
     ![clock-out1](../../../../static/img/integration/hrms/e-tms/clock-out1.png)  
 
 - If ***'Claim OT' switch*** is turned on
-    - The **'OT Break Time (min)'** will be visible
-    
-        ![clock-out2](../../../../static/img/integration/hrms/e-tms/clock-out2.png)
+        - The **'OT Break Time (min)'** will be visible
 
-    - When employee tap the ***'Clock Out' button***, a few different dialog may be shown, as explained below
+    ![clock-out2](../../../../static/img/integration/hrms/e-tms/clock-out2.png)
+
+        - When employee tap the ***'Clock Out' button***, a few different dialog may be shown, as explained below
 
     | **Dialog** | **Explanation** |
     | :--------- | :-------------- |
-    | ![clock-out3](../../../../static/img/integration/hrms/e-tms/clock-out3.png) | If [OT Rules](#work-ot) are fulfilled, an **'Overtime Confirmation'** dialog will be prompt that allows the employee to adjust their OT time and OT break time |  
-    | ![clock-out4](../../../../static/img/integration/hrms/e-tms/clock-out4.png) | If no [OT Rules](#work-ot) is found, an **'Overtime Confirmation'** dialog (with *'No OT entitlement found'* stated at the bottom) will be prompt that allows the employee to adjust their OT time and OT break time |  
-    | ![clock-out5](../../../../static/img/integration/hrms/e-tms/clock-out5.png) | If not within OT Period, employee will be given option to continue Clock Out without claiming OT |  
+    | ![clock-out3](../../../../static/img/integration/hrms/e-tms/clock-out3.png) | If [OT Rules](#work-ot) are fulfilled, an **'Overtime Confirmation'** dialog will be prompt that allows the employee to adjust their OT time and OT break time |
+    | ![clock-out4](../../../../static/img/integration/hrms/e-tms/clock-out4.png) | If no [OT Rules](#work-ot) is found, an **'Overtime Confirmation'** dialog (with *'No OT entitlement found'* stated at the bottom) will be prompt that allows the employee to adjust their OT time and OT break time |
+    | ![clock-out5](../../../../static/img/integration/hrms/e-tms/clock-out5.png) | If not within OT Period, employee will be given option to continue Clock Out without claiming OT |
     | ![clock-out6](../../../../static/img/integration/hrms/e-tms/clock-out6.png) | If minimum OT set in [OT Rules](#work-ot) is not fulfilled, employee will be given option to continue Clock Out without claiming OT |
 
 - ***'Claim As Leave' switch*** will only be visible on Rest Day and Public Holiday
@@ -100,9 +100,9 @@ Screenshotting the QR Code is not allowed!
 
 ### Work Location
 
-**Step:** Tap ***'View Work Location' label button***  
-    
-    ![work-location](../../../../static/img/integration/hrms/e-tms/work-location.png)  
+**Step:** Tap ***'View Work Location' label button***
+
+    ![work-location](../../../../static/img/integration/hrms/e-tms/work-location.png)
 
 - **Purple Location icon:** Employee's current location
 - **Green Check icon:** Location that the employee is currently in
@@ -115,9 +115,9 @@ Multiple work locations with the same coordinate will be considered as one
 
 ### My Work Session
 
-User can view his own work session in calendar view  
-    
-    ![my-work-session](../../../../static/img/integration/hrms/e-tms/my-work-session.png)  
+User can view his own work session in calendar view
+
+    ![my-work-session](../../../../static/img/integration/hrms/e-tms/my-work-session.png)
 
 - **Red font with purple box:** Public Holiday
 - **Purple box:** Rest Day
@@ -126,15 +126,15 @@ User can view his own work session in calendar view
 
 ### Team Work Session
 
-User can view employee's team member's work session and work session of the employees that the manager is managing  
-    
-    ![team-work-session](../../../../static/img/integration/hrms/e-tms/team-work-session.png)  
+User can view employee's team member's work session and work session of the employees that the manager is managing
+
+    ![team-work-session](../../../../static/img/integration/hrms/e-tms/team-work-session.png)
 
 ## Log
 
 ### Processed Log
 
-    ![processed-log1](../../../../static/img/integration/hrms/e-tms/processed-log1.png)  
+    ![processed-log1](../../../../static/img/integration/hrms/e-tms/processed-log1.png)
 
 - The bar chart shows employee summary of a week
     - **Blue bar (480 minutes):** Employee fulfilled expected work duration
@@ -144,24 +144,24 @@ User can view employee's team member's work session and work session of the empl
     - **Manager:** Manager clock on behalf through SQL HRMS app
     - **'-' symbol:** Employee clock by themselves through SQL HRMS app
 - Tap on the bar or date to view the summary and attendance logs
-- ***'Leave Status' button*** is to view all leave applications applied on that date  
-    
-    ![processed-log2](../../../../static/img/integration/hrms/e-tms/processed-log2.png) 
+- ***'Leave Status' button*** is to view all leave applications applied on that date
 
-- ***'Timeline' button*** will direct to Attendance Timeline to view user's locations (refer [Timeline](#timeline) for more details)  
-    
-    ![processed-log3](../../../../static/img/integration/hrms/e-tms/processed-log3.png) 
+    ![processed-log2](../../../../static/img/integration/hrms/e-tms/processed-log2.png)
+
+- ***'Timeline' button*** will direct to Attendance Timeline to view user's locations (refer [Timeline](#timeline) for more details)
+
+    ![processed-log3](../../../../static/img/integration/hrms/e-tms/processed-log3.png)
 
 ### Unprocessed Log
 
-    ![unprocessed-log](../../../../static/img/integration/hrms/e-tms/unprocessed-log.png)  
+    ![unprocessed-log](../../../../static/img/integration/hrms/e-tms/unprocessed-log.png)
 
 - Rough calculation on late in, early out and overtime will be calculated on those log that are not synced and processed in SQL Payroll
 - User are encouraged to process the logs on SQL Payroll in order to obtain a more accurate results on late in, early out and overtime
 
 ## Timeline
 
-    ![timeline](../../../../static/img/integration/hrms/e-tms/timeline.png)  
+    ![timeline](../../../../static/img/integration/hrms/e-tms/timeline.png)
 
 - **Employee List** will only be visible to managers, employees will be directed into their own timeline
 - Timeline plots the user's clock in, clock out and status update locations on a map
@@ -169,18 +169,19 @@ User can view employee's team member's work session and work session of the empl
     - Paper Clip icon will only appear if there's attachment for that log
     - If there are more than one attachment attached, tapping on the Paper Clip icon a pop up will appear with a list of attachments
 - User can tap on each log card to focus on the log's location in the map
-- Icon identifiers: 
+- Icon identifiers:
+
     |   | **Log Icon** | **Map Icon** |
     |:--| :----------- | :----------- |
-    | Clock In | ![log-icon1](../../../../static/img/integration/hrms/e-tms/log-icon1.png) | ![map-icon1](../../../../static/img/integration/hrms/e-tms/map-icon1.png) |  
-    | Status Update | ![log-icon2](../../../../static/img/integration/hrms/e-tms/log-icon2.png) | ![map-icon2](../../../../static/img/integration/hrms/e-tms/map-icon2.png) |  
-    | Clock Out | ![log-icon3](../../../../static/img/integration/hrms/e-tms/log-icon3.png) | ![map-icon3](../../../../static/img/integration/hrms/e-tms/map-icon3.png) |  
+    | Clock In | ![log-icon1](../../../../static/img/integration/hrms/e-tms/log-icon1.png) | ![map-icon1](../../../../static/img/integration/hrms/e-tms/map-icon1.png) |
+    | Status Update | ![log-icon2](../../../../static/img/integration/hrms/e-tms/log-icon2.png) | ![map-icon2](../../../../static/img/integration/hrms/e-tms/map-icon2.png) |
+    | Clock Out | ![log-icon3](../../../../static/img/integration/hrms/e-tms/log-icon3.png) | ![map-icon3](../../../../static/img/integration/hrms/e-tms/map-icon3.png) |
 
 ## Work OT
 
-Shows the employee's OT entitlement  
-    
-    ![work-ot](../../../../static/img/integration/hrms/e-tms/work-ot.png)  
+Shows the employee's OT entitlement
+
+    ![work-ot](../../../../static/img/integration/hrms/e-tms/work-ot.png)
 
 ## Team Log
 
@@ -208,16 +209,16 @@ Shows the employee's OT entitlement
   
 ### Clock On Behalf (Manager only)
 
-Managers are allowed to clock in on behalf for his team by tapping on the ***'Clock on Behalf' button***  
-    
-    ![clock-on-behalf1](../../../../static/img/integration/hrms/e-tms/clock-on-behalf1.png)  
+Managers are allowed to clock in on behalf for his team by tapping on the ***'Clock on Behalf' button***
+
+    ![clock-on-behalf1](../../../../static/img/integration/hrms/e-tms/clock-on-behalf1.png)
 
 - After choosing an employee, the manager is directed to the [**Attendance Log**](#log) where a Right Arrow icon on each log and a ***'Clock In' button*** is visible
-- Tap on the Right Arrow icon to direct to Attendance Log Detail  
+- Tap on the Right Arrow icon to direct to Attendance Log Detail
 
-**Clock On Behalf**  
-    
-    ![clock-on-behalf2](../../../../static/img/integration/hrms/e-tms/clock-on-behalf2.png)  
+- **Clock On Behalf**
+
+    ![clock-on-behalf2](../../../../static/img/integration/hrms/e-tms/clock-on-behalf2.png)
 
 | **Button** | **Explanation** |
 | :--------- | :-------------- |
@@ -232,6 +233,8 @@ Managers are allowed to clock in on behalf for his team by tapping on the ***'Cl
 - Manager are not allowed to clock out on behalf if employee already clocked out on the next day  
 - Manager are not allowed to clock on behalf earlier than the stated last processed date and time
 
+- **View Attendance Log Detail (Right Arrow Icon)**
+
 **View Attendance Log Detail (Right Arrow Icon)**  
     
     ![attendance-log-detail](../../../../static/img/integration/hrms/e-tms/attendance-log-detail.png)  
@@ -243,14 +246,14 @@ Managers are allowed to clock in on behalf for his team by tapping on the ***'Cl
 
 ### Geofence Service
 
-The notification will appear after employee clocked in and has ***'GPS Monitoring'*** enable for their [Work Session](payroll-setup.md#maintain-work-session)  
+The notification will appear after employee clocked in and has ***'GPS Monitoring'*** enable for their [Work Session](payroll-setup.md#maintain-work-session)
 
-    ![geofence-service](../../../../static/img/integration/hrms/e-tms/geofence-service.png)  
+    ![geofence-service](../../../../static/img/integration/hrms/e-tms/geofence-service.png)
 
 ### Clock In / Out Reminder
 
-1. Remind user to clock in when he is within work location  
-    
+1. Remind user to clock in when he is within work location
+
     ![reminder1](../../../../static/img/integration/hrms/e-tms/reminder1.png)
 
 2. Remind employee to clock out it's work end  

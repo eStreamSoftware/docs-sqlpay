@@ -13,7 +13,7 @@ description: An E Claim sync cloud guide in SQL Payroll
     - **Red Highlight:** Rejected claim
     - Editable columns:
         - Comment
-        - Action: 
+        - Action:
             - Approved
             - Reject
             - Unapprove
@@ -22,6 +22,7 @@ description: An E Claim sync cloud guide in SQL Payroll
 ![sync-cloud](../../../../static/img/integration/hrms/e-claim/sync-cloud.png)
 
 ## Edit Mode
+
 **Step 1:** Right-click on the grid | Edit
 
 ![sync-cloud-edit](../../../../static/img/integration/hrms/e-claim/sync-cloud-edit.png)
@@ -34,4 +35,3 @@ description: An E Claim sync cloud guide in SQL Payroll
         - Amount
 
 **Step 2:** Save
-

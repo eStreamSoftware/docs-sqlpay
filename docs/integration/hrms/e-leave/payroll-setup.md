@@ -2,6 +2,7 @@
 sidebar_position: 1
 title: Payroll Setup
 description: An E Leave setup guide in SQL Payroll
+slug: /integration/hrms/e-leave/payroll-setup
 ---
 
 ## Multi-Level Leave Approval & Notification Settings

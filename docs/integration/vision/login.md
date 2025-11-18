@@ -4,11 +4,9 @@ description: A brief guide on logging into the SQL VISION mobile application
 sidebar_position: 1
 ---
 
-# Login
-
 1. Enter the user company email address
 
-![Login Email](../../../static/img/integration/vision/login/email.png)
+    ![Login Email](../../../static/img/integration/vision/login/email.png)
 
 2. Submit email
 
@@ -19,7 +17,7 @@ sidebar_position: 1
 
 3. **Resend OTP** allows user to request again an One-Time Password(OTP)
 
-![Resend OTP](../../../static/img/integration/vision/login/resendOTP.png)
+    ![Resend OTP](../../../static/img/integration/vision/login/resendOTP.png)
 
 4. Verification
     1. Enter the received OTP

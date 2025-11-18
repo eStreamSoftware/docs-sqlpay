@@ -17,14 +17,14 @@ description: An E Payroll features in SQL HRMS app guide
 
 ## Monthly Payroll
 
-User can view his monthly net pay and total net income  
-    
+User can view his monthly net pay and total net income
+
     ![monthly-payroll](../../../../static/img/integration/hrms/e-payroll/monthly-payroll.png)
 
 ### Monthly Payroll Details
 
-**Step:** Select a month  
-    
+**Step:** Select a month
+
     ![monthly-payroll-details](../../../../static/img/integration/hrms/e-payroll/monthly-payroll-details.png)
 
 - Payslip can be downloaded by tapping on the ***Download icon*** (top right corner)
@@ -39,8 +39,8 @@ User can view his monthly net pay and total net income
 
 ## Activity Center
 
-**Step:** Dashboard | Bell Icon (top left corner)  
-    
+**Step:** Dashboard | Bell Icon (top left corner)
+
     ![activity-center](../../../../static/img/integration/hrms/e-payroll/activity-center.png)
 
 - Show employee’s latest payroll
@@ -48,8 +48,8 @@ User can view his monthly net pay and total net income
 
 ## Side Drawer
 
-**Step:** Dashboard | Person Icon (top right corner)  
-    
+**Step:** Dashboard | Person Icon (top right corner)
+
     ![side-drawer](../../../../static/img/integration/hrms/e-payroll/side-drawer.png)
 
 - **Update Latest Version:** It will only appear when there's new update and user will be directed to Play Store (Android) / App Store (iOS) to update their app
@@ -57,20 +57,20 @@ User can view his monthly net pay and total net income
 
 ### Personal Information
 
-User can view his personal information  
-    
+User can view his personal information
+
     ![personal-information](../../../../static/img/integration/hrms/e-payroll/personal-information.png)
 
 ### Payroll Information
 
-User can view his payroll information  
-    
+User can view his payroll information
+
     ![payroll-information](../../../../static/img/integration/hrms/e-payroll/payroll-information.png)
 
 ### Manager List
 
 User can view his managers and access their contacts by swiping/tapping on the manager card
-    
+
     ![manager-list](../../../../static/img/integration/hrms/e-payroll/manager-list.png)
 
 ### Team List
@@ -90,8 +90,8 @@ User can view their company's announcement
 - Time of Announcement Notification:
   - If post date is today, the employee will be notified almost immediately
   - If post date is in future, the employee will be notified at 9am of the specified date
-- Eg:  
-    
+- Eg:
+
     ![announcement2](../../../../static/img/integration/hrms/e-payroll/announcement2.png)
 
 :::info
@@ -100,14 +100,14 @@ Enable **Autostart** for SQL HRMS to ensure Announcement features work according
 
 ### Company Profile
 
-User can view his company information  
-    
+User can view his company information
+
     ![company-profile](../../../../static/img/integration/hrms/e-payroll/company-profile.png)
 
 ### Switch Company
 
-User can switch to different company which are linked to the login email  
-    
+User can switch to different company which are linked to the login email
+
     ![switch-company](../../../../static/img/integration/hrms/e-payroll/switch-company.png)
 
 - **Green checked icon:** Current selected company
@@ -116,8 +116,8 @@ User can switch to different company which are linked to the login email
 
     ![settings](../../../../static/img/integration/hrms/e-payroll/settings.png)
 
-- **Language:** User can switch to different language based on preferences  
-- **Total Space Used:** User can press the button at the right to delete cache files created by SQL HRMS  
+- **Language:** User can switch to different language based on preferences
+- **Total Space Used:** User can press the button at the right to delete cache files created by SQL HRMS
 
 ### Help Center
 
@@ -137,14 +137,14 @@ User can find frequently asked questions to understand better about SQL HRMS fea
 
 #### User Feedback
 
-User can submit feedback on problems that they are facing or suggestions on how we can further improve SQL HRMS  
-    
+User can submit feedback on problems that they are facing or suggestions on how we can further improve SQL HRMS
+
     ![user-feedback](../../../../static/img/integration/hrms/e-payroll/user-feedback.png)
 
 ## Birthday Calendar
 
-User can view his team members’ and his own birthday dates in calendar view  
-    
+User can view his team members’ and his own birthday dates in calendar view
+
     ![birthday-calendar](../../../../static/img/integration/hrms/e-payroll/birthday-calendar.png)
 
 - **Pink dot:** There are birthdays on that date

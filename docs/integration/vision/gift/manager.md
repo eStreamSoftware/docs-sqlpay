@@ -6,7 +6,7 @@ sidebar_position: 2
 
 :::info[Note]
 
-These features are only available to **manager**.  
+These features are only available to **manager**.
 
 :::
 
@@ -18,21 +18,21 @@ After manager creates a gift, users will receive notification regarding the new 
 
 1. To add a new gift, managers can go to **More icon> Add Gift**.
 
-![gift](../../../../static/img/integration/vision/gift/gotoAddGift.png)
+    ![gift](../../../../static/img/integration/vision/gift/gotoAddGift.png)
 
 2. Gift Redemption Details
 
-![gift](../../../../static/img/integration/vision/gift/addGiftStep1.png)
+    ![gift](../../../../static/img/integration/vision/gift/addGiftStep1.png)
 
-| Properties                   | Description                                                                        | Note     |
-|:-----------------------------|:-----------------------------------------------------------------------------------|:--------:|
-| **Name** | The name of the gift.                                                                               | Required |
-| **Description** | A detailed description of the gift.                                                          | Required |
-| **Terms & Conditions** | To specify the rules, requirements, guidelines, and limitations that the user must agree to in order to redeem the gift.                                                                                                               | Required |
-| **Redemption Validity Start Date** | The first date when the gift can be redeemed.                            | Required |
-| **Redemption Validity End Date** | The last date when the gift can be redeemed.                                | Required |
-| **Clear** | Clears all content on the current page.                                                            |    -     |
-| **Next** |  Navigates to the next page.                                                             |    -     |
+    | Properties                   | Description                                                                        | Note     |
+    |:-----------------------------|:-----------------------------------------------------------------------------------|:--------:|
+    | **Name** | The name of the gift.                                                                               | Required |
+    | **Description** | A detailed description of the gift.                                                          | Required |
+    | **Terms & Conditions** | To specify the rules, requirements, guidelines, and limitations that the user must agree to in order to redeem the gift.                                                                                                               | Required |
+    | **Redemption Validity Start Date** | The first date when the gift can be redeemed.                            | Required |
+    | **Redemption Validity End Date** | The last date when the gift can be redeemed.                                | Required |
+    | **Clear** | Clears all content on the current page.                                                            |    -     |
+    | **Next** |  Navigates to the next page.                                                             |    -     |
 
 3. Gift Redemption Criteria
 
@@ -53,8 +53,8 @@ After manager creates a gift, users will receive notification regarding the new 
 
 1. To update a gift, the manager can go to **More icon > Manage Gift** and select the gift to be updated.
 
-|![gift](../../../../static/img/integration/vision/gift/gotoManageGift.png)|![gift](../../../../static/img/integration/vision/gift/chooseEditGift.png)                 |
-|:------------------------------------|:-----------------------------------------------------|
+    |![gift](../../../../static/img/integration/vision/gift/gotoManageGift.png)|![gift](../../../../static/img/integration/vision/gift/chooseEditGift.png)                 |
+    |:------------------------------------|:-----------------------------------------------------|
 
 2. Update Gift Details - In step 2 of edit mode, the user can update the gift's status using the **"Set as Active"** field.
 
@@ -91,6 +91,7 @@ To check completed issuances, **toggle on Issued Gifts** to display the latest i
 |:------------------------------------|:-----------------------------------------------------|
 
 ## Manage Gift
+
 ### Gift Status
 
 |Active Gifts|Inactive Gifts |

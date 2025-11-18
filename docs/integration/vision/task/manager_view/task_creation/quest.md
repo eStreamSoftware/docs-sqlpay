@@ -14,10 +14,10 @@ This feature is only available to **manager**.
 
 ![quest](../../../../../../static/img/integration/vision/mi_creation/quest.png)
 
-| Properties                | Description                                                                 | 
+| Properties                | Description                                                                 |
 |:--------------------------|:----------------------------------------------------------------------------|
-| **Join Permission**     | Sets whether the quest requires manager approval to join.                     | 
-| **Maximum Pax**         | The maximum number of people allowed to join the quest.                       | 
+| **Join Permission**     | Sets whether the quest requires manager approval to join.                     |
+| **Maximum Pax**         | The maximum number of people allowed to join the quest.                       |
 | **Quest Visible By**    | Specifies which Branch, Department, or HR Group can view and join the quest.  |
 | **Back**                | Navigates to the previous page.                                               |
 | **Create**              | Creates the quest.                                                            |

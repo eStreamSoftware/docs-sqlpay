@@ -23,39 +23,39 @@ SQL Vision is linked to SQL Account to get the amount of sales target achieved b
 
 3. Click **Finish**
 
-## Connect SQL Account and SQL Vision with SQL Vision Sync 
+## Connect SQL Account and SQL Vision with SQL Vision Sync
 
 ![Sync Program](../../../static/img/integration/vision/account/text-connection.png)
 
 1. Insert the SQL accounting DFC file into the corresponding field of SQL Vision Sync. You can find the SQL account DFC file in the path specified within the SQL Account Database of the SQL Accounting Software.
- 
-![Sync Program](../../../static/img/integration/vision/account/location-DCF-file.png)
 
-2. Open the dropdown and select the database from the dropdown list. 
+    ![Sync Program](../../../static/img/integration/vision/account/location-DCF-file.png)
 
-3. Insert the user name and password fields with the SQL Accounting Software user name and password. 
+2. Open the dropdown and select the database from the dropdown list.
+
+3. Insert the user name and password fields with the SQL Accounting Software user name and password.
 
 4. Click **Test Connection**.
-:::info[Hint]
 
-The SQL Accounting Software must be open and logged in during the connection process.
+    :::info[Hint]
 
-:::
+    The SQL Accounting Software must be open and logged in during the connection process.
+
+    :::
 
 5. Click **Next** to continue the following steps.
 
+    ![Sync Program](../../../static/img/integration/vision/account/get-otp-and-token.png)
 
-![Sync Program](../../../static/img/integration/vision/account/get-otp-and-token.png)
-
-6. Insert the company ID. 
+6. Insert the company ID.
 7. Click **Get OTP** .
-8. Insert the OTP obtained from the Step 7 into the OTP field. 
+8. Insert the OTP obtained from the Step 7 into the OTP field.
 9. Click **Get Token**.
 10. Click **Next** to continue the following steps.
 
-![Sync Program](../../../static/img/integration/vision/account/export-data.png)
+    ![Sync Program](../../../static/img/integration/vision/account/export-data.png)
 
-11. Select the last export date 
+11. Select the last export date
 12. Click **Export Data**.
 13. Once the data is exported, the SQL Vision mobile app will sync and display the data retrieved from the SQL Accounting Software.
 
@@ -67,7 +67,7 @@ The SQL Accounting Software must be open and logged in during the connection pro
 
 ## Strategy
 
-The **Strategy** is a formula that helps managers and the application categorize specific targets for each mission. This setup allows the application to accurately retrieve the target amounts associated with a mission from the SQL Account system. 
+The **Strategy** is a formula that helps managers and the application categorize specific targets for each mission. This setup allows the application to accurately retrieve the target amounts associated with a mission from the SQL Account system.
 
 To view the strategy, go to **Main Dashboard | Side Bar | Company Configuration**
 
@@ -115,4 +115,3 @@ To edit an existing strategy, follow these steps:
 3. Click the **Edit** button.
 4. Click **Save** to apply changes.
 5. Click **Cancel** to discard the changes.
-
