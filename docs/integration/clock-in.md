@@ -10,6 +10,17 @@ Time Attendance QR Code related guidelines
 To setup Time Attendance QR Code, may refer to [Time Attendance Payroll Setup](hrms/e-tms/payroll-setup)
 :::
 
+## Scanner Requirements
+
+- Android device (Android 5 and above — higher is better)  
+- Google Play Store  
+- Bluetooth 5.0 + BLE  
+- Internet connection (preferably supports 2.4GHz / 5GHz)  
+- GPS service  
+- Front camera ≥ 5MP  
+- Back camera ≥ 20MP  
+- RAM 6GB and above (recommended)  
+
 ## Login
 
 ### Login
