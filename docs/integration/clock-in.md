@@ -14,7 +14,7 @@ To setup Time Attendance QR Code, may refer to [Time Attendance Payroll Setup](h
 
 ## Scanner Requirements
 
-- Android device (Android 5 and above — higher is better)
+- Android device (Android 7 and above — higher is better)
 - Google Play Store
 - Bluetooth 5.0 + BLE
 - Internet connection (preferably supports 2.4GHz / 5GHz)
