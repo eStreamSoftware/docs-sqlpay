@@ -32,13 +32,14 @@ Before entering the SMTP settings, the user needs to create an app password usin
    ![smtp1](../../../static/img/integration/hrms/payroll-setup/smtp1.png)
 
 3. Go to Email Settings tab and fill in the required fields
-  | Field       | Value                                                           |
-  | ----------- | --------------------------------------------------------------- |
-  | Host        | Google: `smtp.gmail.com` <br /> Microsoft: `smtp.office365.com` |
-  | Port        | 587                                                             |
-  | User        | Email used to generate the app password                         |
-  | Password    | The 16-character password generated in the email setup          |
-  | Sender Name | Name of the sender                                              |
+
+    | Field       | Value                                                           |
+    | ----------- | --------------------------------------------------------------- |
+    | Host        | Google: `smtp.gmail.com` <br /> Microsoft: `smtp.office365.com` |
+    | Port        | 587                                                             |
+    | User        | Email used to generate the app password                         |
+    | Password    | The 16-character password generated in the email setup          |
+    | Sender Name | Name of the sender                                              |
 
 4. Send a test email to check if the config is right.
 
