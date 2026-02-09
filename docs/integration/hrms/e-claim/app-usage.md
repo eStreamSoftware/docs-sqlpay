@@ -25,9 +25,13 @@ Prorated year claim limit will be applied to user whose Join Year = Current Year
    | Claim               | Description                                                   |
    | ------------------- | ------------------------------------------------------------- |
    | **Default Claim**   | Select expense type, claim date, amount and description       |
+   | **Receipt Scan**    | Select attachment of a receipt                                |
    | **E-Invoice Claim** | Select attachment that includes a **VALID** E-Invoice QR code |
 
    - User can view the MTD limit, YTD limit and claim balance for each selected expenses type
+   - For Receipt Scan, 
+     - Rescan: Resubmit attachment for reanalyzing if the scan result is incorrect
+     - Refresh Status: Refresh scan status after attachment is uploaded if scanning is still in progress
    - For E-Invoice Claim, post date, ref 1 and ref 2 will be filled in based on the E-Invoice and are not editable
    - User need to allow Camera and Photos (only for iOS device) permission in order to continue the service (refer [Android Permission](../permission.md#android-2) and [iOS Permission](../permission.md#ios-2))
 

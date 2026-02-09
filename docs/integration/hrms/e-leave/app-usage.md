@@ -35,7 +35,13 @@ apply
 ![leave-app-employee](../../../../static/img/integration/hrms/e-leave/leave-app-employee.png)
 
 1. Select leave duration type: Full Day, Half Day, Custom Time
-2. Select leave date, leave time, leave type, description - User can view year balance and leave taken for the selected leave type - **_'I'm taking leave' checkbox_** : - Checked: Normal leave application - Unchecked: Apply leave as OT replacement - User need to allow Camera and Photos (only for iOS device) permission to continue the service (refer [Android Permission](../permission.md#android-2) and [iOS Permission](../permission.md#ios-2))
+2. Select leave date, leave time, leave type, description 
+   - User can view leave type advanced period, year balance and leave taken for the selected leave type 
+      - Advanced Period: Hours in advanced employee must apply for leave before it starts
+   - **_'I'm taking leave' checkbox_** : 
+      - Checked: Normal leave application
+      - Unchecked: Apply leave as OT replacement 
+   - User need to allow Camera and Photos (only for iOS device) permission to continue the service (refer [Android Permission](../permission.md#android-2) and [iOS Permission](../permission.md#ios-2))
 3. Submit
 
 :::info
@@ -212,7 +218,7 @@ Batch Leave Approval will undergo the same checkings as Leave Approval and warni
 
 ### Leave Approval Notification
 
-#### Leave Approval Notify Message
+#### Leave Approved
 
 User will receive the following notification once manager approves his leave:
 
@@ -226,15 +232,8 @@ User will receive the following notification once manager approves his leave:
 
 #### Leave Approval Failed
 
-User will receive the following notification if manager fails to approve his leave (exceed year limit):
-
-1. App Notification
-
+User will receive an app notification if manager fails to approve his leave (exceed year limit):
    ![leave-approval-failed-app-noti](../../../../static/img/integration/hrms/e-leave/leave-approval-failed-app-noti.png)
-
-2. Email Notification
-
-   ![leave-approval-failed-email-noti](../../../../static/img/integration/hrms/e-leave/leave-approval-failed-email-noti.png)
 
 #### Leave Rejected
 
