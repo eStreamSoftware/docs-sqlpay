@@ -56,6 +56,16 @@ description: An E TMS setup guide in SQL Payroll
 
 3. Save
 
+:::info
+For more Public Holiday options, user may click on the **_'≣'_** on the grid to reveal the **_'Day Type'_** column
+
+   ![maintain-public-holiday4](../../../../static/img/integration/hrms/e-tms/maintain-public-holiday4.png)
+
+   - Public Holiday options:
+     - Special Rate 1
+     - Special Rate 2
+:::
+
 ## Maintain Work Session
 
 1. Navigate to Time Attendance > Maintain Work Session…, select a Work Session/Create New
@@ -113,10 +123,10 @@ Make sure that the work session is set based on the time zone maintained in Comp
 3. Select OT Period
 4. Select Work Session
 
-   | **Day Type**                                                                                                                  | **OT Period**                                 | **Work Session**        |
-   | :---------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- | :---------------------- |
-   | Rest Day <br/> Rest Day (Special Rate 1) <br/> Rest Day (Special Rate 2) <br/> Rest Day (Special Rate 3) <br/> Public Holiday | All Day                                       |                         |
-   | Work Day                                                                                                                      | Before Work <br/> Break Time <br/> After Work | _Select a Work Session_ |
+   | **Day Type**                                                                                                    | **OT Period**                                 | **Work Session**        |
+   | :-------------------------------------------------------------------------------------------------------------- | :-------------------------------------------- | :---------------------- |
+   | Rest Day <br/> Rest Day (Special Rate 1 / 2 / 3) <br/> Public Holiday <br/> Public Holiday (Special Rate 1 / 2) | All Day                                       | 												 |                         
+   | Work Day                                                                                                        | Before Work <br/> Break Time <br/> After Work | _Select a Work Session_ |
 
 5. Set OT Rule by clicking on the **_'…' button_**
 

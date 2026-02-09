@@ -169,7 +169,7 @@ The app will prompt a dialog message upon successful update on the claim status
 
 ### Notification
 
-#### Claim Approval Success
+#### Claim Approved
 
 User will receive the following notification once manager approves his claim:
 
@@ -181,19 +181,7 @@ User will receive the following notification once manager approves his claim:
 
    ![claim-approval-email-noti](../../../../static/img/integration/hrms/e-claim/claim-approval-email-noti.png)
 
-#### Claim Approval Failed
-
-User will receive the following notification if manager failed to approve his claim (exceed year limit):
-
-1. App Notification
-
-   ![claim-approval-failed-app-noti](../../../../static/img/integration/hrms/e-claim/claim-approval-failed-app-noti.png)
-
-2. Email Notification
-
-   ![claim-approval-failed-email-noti](../../../../static/img/integration/hrms/e-claim/claim-approval-failed-email-noti.png)
-
-#### Claim Approval Rejected
+#### Claim Rejected
 
 User will receive the following notification once manager rejects his leave:
 

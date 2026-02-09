@@ -11,13 +11,14 @@ slug: /integration/hrms/e-leave/app-usage
 
 - **Leave Status Count Summary** - User’s total approved, pending and rejected leaves in the current year - User can tap on each status to view leave applications with the respective status
 - **Upcoming Leave**: User’s upcoming approved leave
-- **Leave Balance Summary (AL, MC and UL)** - User can tap on the card to view detailed leave balance for all his leave types
+- **Leave Balance Summary (AL, MC and UL)**: User can tap on the card to view detailed leave balance for all his leave types
+  - A label will be shown if leave entitlement has not been processed by HR
 
 ## Leave Balance
 
 ### Employee (Leave Balance)
 
-User can view leave balance of different year by navigating to different year
+User can view leave balance of different year by navigating to different year and tap on each leave balance card to view the leave applied respectively
 
 ![leave-balance-employee](../../../../static/img/integration/hrms/e-leave/leave-balance-employee.png)
 

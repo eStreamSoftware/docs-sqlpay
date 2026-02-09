@@ -13,5 +13,5 @@ This setting only available on **Android** devices that supports Auto Start
     ![autostart](../../../static/img/integration/hrms/autostart/autostart.png)
 
 :::info
-Encouraged to enable **Autostart** for SQL HRMS to ensure E TMS and Announcement features work accordingly
+Encouraged to enable **Autostart** for SQL HRMS to ensure that E TMS and Announcement features work accordingly
 :::

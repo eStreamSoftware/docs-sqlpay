@@ -12,15 +12,15 @@ slug: /integration/hrms/e-leave/payroll-setup
 ![company-profile-hrms-approval-notification](../../../../static/img/integration/hrms/e-leave/company-profile-hrms-approval-notification.png)
 
 - ***'Multi-Level Approval' checkbox***: Checked to enable multi-level approval for leave application in E HRMS app
-- ***'Send E Leave Email Notification' checkbox***: Checked to allow E HRMS app to send leave and claim notifications to managers.
+- ***'Send E Leave Email Notification' checkbox***: Checked to allow E HRMS app to send leave email notifications to managers 
 
 ## Manager Authority Settings
 
-Navigate to Maintain Employee > E HRMS tab
+1. Navigate to Maintain Employee > E HRMS tab
 
 ![manage-authority-settings](../../../../static/img/integration/hrms/e-leave/manage-authority-settings.png)
 
-- ***'Manager' checkbox***: Checked to make the employee a manager
+- **_'Manager' checkbox_**: Checked to make the employee a manager
 - **Manager Authority**:
   - Can Approve: Able to approve team’s leave applications and claim submissions
   - Can Review: Only able to verify team’s leave application and claim submission
