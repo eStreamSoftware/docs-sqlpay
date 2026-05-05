@@ -19,9 +19,9 @@ The **web application**, on the other hand, focuses more on **management and adm
 
 You can explore the system through the demo links below:
 
-- 🌐 **Web Application Demo**  
+- 🌐 **Web Application Demo**
   [WebApp](https://vision.sql.com.my/)
 
-- 📱 **Mobile Application Demo**  
-  [Android](market://details?id=my.com.sql.app.vision)  | 
+- 📱 **Mobile Application Demo**
+  [Android](market://details?id=my.com.sql.app.vision)  |
   [IOS](https://apps.apple.com/my/app/sql-vision/id6736932365)
