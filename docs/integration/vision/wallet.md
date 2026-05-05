@@ -107,5 +107,5 @@ Both **Payout** and **Entitlement** views share a similar layout and functionali
 
 - Tap the **top-right icon**, select an employee from the list, and view that employee’s coin transactions.
 
-   | ![mobileDemo](../../../static/img/integration/vision/wallet/manage-coin-transac-button.png) | ➜ | ![mobileDemo](../../../static/img/integration/vision/wallet/search-emp-2.png) | ➜ | ![mobileDemo](../../../static/img/integration/vision/wallet/manager-view-coin-transac.png)|
+| ![mobileDemo](../../../static/img/integration/vision/wallet/manage-coin-transac-button.png) | ➜ | ![mobileDemo](../../../static/img/integration/vision/wallet/search-emp-2.png) | ➜ | ![mobileDemo](../../../static/img/integration/vision/wallet/manager-view-coin-transac.png)|
 |:---:|---|:---:|---|:---:|

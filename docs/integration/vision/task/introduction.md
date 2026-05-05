@@ -17,4 +17,4 @@ There are 3 types of missions in task module: **Assignment**, **Target** and **Q
   *Example: Sales Target, Input Data.*
 
 - **Quest:**
-  A Quest is ideal when the participant is not predetermined or when you want to invite all employees to participate.
+  A Quest is ideal when participants are not predetermined, allowing employees to freely join and participate.

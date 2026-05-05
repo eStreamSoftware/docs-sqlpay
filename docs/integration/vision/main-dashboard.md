@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Main Dashboard
@@ -14,7 +14,7 @@ sidebar_position: 2
 
 ### Upskill
 
-- Displays all available courses and courses in which the user is currently enrolled.
+- Displays all available courses and the courses in which the user is currently enrolled.
 
 ### Gantt Chart
 
@@ -22,15 +22,15 @@ sidebar_position: 2
 
 ### Wallet
 
-- Displays earned cash and coins, transaction history, and available rewards for redemption.
+- Displays earned cash and coins, transaction history, upcoming payouts and rewards available for redemption.
 
 ### Manage Task
 
-- Allows user to create, edit and update tasks, track task progress and review completed tasks.
+- Allows users to create, edit, and update tasks, track task progress, and review completed tasks.
 
 ### Manage Upskill
 
-- Allows user to create, edit and update courses, track course progress and review completed course.
+- Allows users to create, edit and update courses, track course progress and review completed course.
 
 ### Manage Group
 
@@ -62,7 +62,7 @@ sidebar_position: 2
 
 ![Earned Card](../../../static/img/integration/vision/main-dashboard/earnedCard.png)
 
-- Displays the cash and coin rewards earned by the user for the current or previous month, allowing easy tracking of monthly earnings.
+- Displays the user's cash and coin rewards for the current or previous month, allowing easy tracking of monthly earnings.
 
 ## Account Setting
 
@@ -89,7 +89,7 @@ Details are **view-only** and **cannot be edited** or **modified** from the mobi
 ### Company Configuration (Manager)
 
 - Enables managers to view and modify company settings, including the closing period (days), estimated payout day, and payment strategies.
-- Managers can switch between Default and Customize strategies and use the search bar to quickly locate specific strategies.
+- Managers can view default strategies and configure custom strategies with the Default and Customize tab.
 - For more details about strategy, refer to [**Linking to SQL Account | Strategy**](./linking-to-account.md#strategy).
 
 ![Company Configuration](../../../static/img/integration/vision/account/predefined-strategy.png)
@@ -102,6 +102,22 @@ Details are **view-only** and **cannot be edited** or **modified** from the mobi
 - Shows all companies the user is associated with, allowing seamless switching between different company accounts.
 
 ![Switch Company](../../../static/img/integration/vision/main-dashboard/switchCompany.png)
+
+### Storage
+
+- Show the total space used by SQL Vision and provide option to clear cache.
+
+![Storage](../../../static/img/integration/vision/main-dashboard/storage.png)
+
+### Devices
+
+- Displays the devices currently logged into the account and allows users to manually remove any of them, except the current device.
+
+![Devices](../../../static/img/integration/vision/main-dashboard/devices.png)
+
+:::warning NOTE
+*This function is accessible only by using the Vision application.*
+:::
 
 ### Help
 

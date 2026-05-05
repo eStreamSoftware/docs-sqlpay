@@ -19,12 +19,12 @@ This feature is only available to **manager**.
 | Properties               | Description                                                                        | Note     |
 |:-------------------------|:-----------------------------------------------------------------------------------|:--------:|
 | **Title**                | The title of the mission.                                                          | Required |
-| **Description**          | A detailed description of the mission.                                             | - |
+| **Description**          | A detailed description of the mission.                                             | -        |
 | **[Project/Job/Task](#projectjobtask)** | The category for the mission, indicating whether it relates to a project, job, or specific task. | - |
-| **Start Date**           | The date when the mission begins.                                                  | Required |
-| **End Date**             | The date when the mission ends. The end date must be later than the start date.    | Required |
+| **Start Date**           | The mission start date.                                                            | Required |
+| **End Date**             | The mission end date. The end date must be later than the start date.              | Required |
 | **Clear**                | Clears all content on the current page.                                            | -        |
-| **Next**                 | Navigates to the next page.                                                        | -        |
+| **Next**                 | Navigates to the next page when requirement is met.                                | -        |
 
 ### Project/Job/Task
 
@@ -39,12 +39,12 @@ Select a **Project**, **Job**, and **Task** from the dropdown menus. If any fiel
 | Properties                                          | Description                                                           | Note         |
 |:----------------------------------------------------|:----------------------------------------------------------------------|:------------:|
 | **[Milestone and Rewards](#milestone-and-rewards)** | Section for entering details about milestones and associated rewards. | At least one |
+| **[Bonus](#bonus)**                          | Section for entering additional bonus rewards.                            | -            |
 | **[Consultant Rewards](#consultant-rewards)**| Section for selecting consultants and specifying their respective rewards.| -     |
 | **[Payment By](#payment-by)**                | Section for selecting the payment method and specifying the payout month. | Required     |
-| **[Bonus](#bonus)**                          | Section for entering additional bonus rewards.                            | -            |
 | **Clear**                                    | Clears all content on the current page.                                   | -            |
 | **Back**                                     | Navigates to the previous page.                                           | -            |
-| **Next**                                     | Navigates to the next page.                                               | -            |
+| **Next**                                     | Navigates to the next page when requirement is met.                       | -            |
 
 ### Milestone and Rewards
 
@@ -57,6 +57,17 @@ Select a **Project**, **Job**, and **Task** from the dropdown menus. If any fiel
 | **Rewards**         | Text field to enter the rewards available to the achievers of the particular milestone. There are 2 types of rewards: <br/> &nbsp;&nbsp; 1. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 2. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../../gift/introduction.md). |
 | **Add**             | Adds a new milestone along with its respective rewards.               |
 | **Delete**          | Deletes a specific milestone and its associated rewards.              |
+
+### Bonus
+
+![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.4.png)
+
+| Properties    | Description                                                                         |
+|---------------|-------------------------------------------------------------------------------------|
+| **Description** | Text field to enter a description for the bonus. *(e.g., extra points that you hope the employee can achieve, though it is not mandatory)* |
+| **Rewards**   | Text field to enter the rewards available to the achievers of the particular bonus. |
+| **Add**       | Adds a new bonus along with its respective rewards.                                 |
+| **Delete**    | Deletes a new bonus along with its respective rewards.                                 |
 
 ### Consultant Rewards
 
@@ -90,16 +101,6 @@ There are two types of payment methods:
    - **Inclusive Setting:** *If January and August are set as inclusive months, rewards entitled from February to August will be paid in August, while rewards entitled from September to January will be paid in January.*
    - **Exclusive Setting:** *If January and August are set as exclusive months, rewards entitled from January to July will be paid in August, and rewards entitled from August to December will be paid in January.*
 
-### Bonus
-
-![assignment](../../../../../../static/img/integration/vision/mi_creation/a-2.4.png)
-
-| Properties    | Description                                                                         |
-|---------------|-------------------------------------------------------------------------------------|
-| **Description** | Text field to enter a description for the bonus. *(e.g., extra points that you hope the employee can achieve, though it is not mandatory)* |
-| **Rewards**   | Text field to enter the rewards available to the achievers of the particular bonus. |
-| **Add**       | Adds a new bonus along with its respective rewards.                                 |
-| **Delete**    | Deletes a new bonus along with its respective rewards.                                 |
 
 ## Step 3 - Participants Information
 

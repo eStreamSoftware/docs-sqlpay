@@ -39,14 +39,6 @@ Manager can view all the created groups in **Main Dashboard | Manage Group**. In
 2. Edit by changing either the **Group Name**, **Admin**, **Group Leader** and **Group Members**.
 3. Tap **Save** to save the changes, or **Cancel** to discard the changes.
 
-### Delete Group
-
-![Manage Group - Delete](../../../static/img/integration/vision/group/g-delete.png)
-
-1. Swipe **Left** on the group card that you want to delete. Tap **Delete**.
-2. Confirm by tapping **Yes**.
-3. You can also delete a group when editing, on the top right **delete icon**.
-
 ## Apply Group
 
 Group can be applied when creating a [**Target**](task/manager_view/task_creation/target#step-3---participants-information), [**Assignment (Step 3)**](task/manager_view/task_creation/assignment#step-3---participants-information) or an [**Upskill (Step 4)**](upskill/manager_view/upskill-creation#step-4---participants-information).

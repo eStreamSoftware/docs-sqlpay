@@ -1,5 +1,5 @@
 ---
-sidebar_position: 10
+sidebar_position: 12
 ---
 
 # Linking to SQL Account
@@ -48,7 +48,7 @@ SQL Vision is linked to SQL Account to get the amount of sales target achieved b
     ![Sync Program](../../../static/img/integration/vision/account/get-otp-and-token.png)
 
 6. Insert the company ID.
-7. Click **Get OTP** .
+7. Click **Get OTP** . (The OTP will be sent to the email set in SQL Payroll > File > Company Profile)
 8. Insert the OTP obtained from the Step 7 into the OTP field.
 9. Click **Get Token**.
 10. Click **Next** to continue the following steps.
@@ -83,7 +83,7 @@ Suppose you’re managing a Sales Department and want to track Q1 sales targets:
 
 ### Pre-defined Strategy
 
-By default, SQL Vision automatically adds two pre-defined strategies to a newly created company, as shown in the image below:
+By default, SQL Vision automatically adds four pre-defined strategies to a newly created company, as shown in the image below:
 
 ![Predefined Strategy](../../../static/img/integration/vision/account/predefined-strategy.png)
 

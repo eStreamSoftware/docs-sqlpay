@@ -107,7 +107,7 @@ To check completed issuances, **toggle on Issued Gifts** to display the latest i
 
 ### Expired Gift
 
-The activation will **fail** if the gift has expired. To activate the gift, the manager must [**update**](#gift-update) its **Redemption Validity End Date**.
+When activating expired gifts, a **new expiry date** must be set for each selected. The expiry date must be **later than the current date**.
 
-|![gift](../../../../static/img/integration/vision/gift/expiredGift.png)|![gift](../../../../static/img/integration/vision/gift/activationFailed.png)                  |
+|![expired gift](../../../../static/img/integration/vision/gift/expiredGift.png)|![activate expired gift](../../../../static/img/integration/vision/gift/activateExpiredGift.png)     |
 |:------------------------------------|:-----------------------------------------------------|

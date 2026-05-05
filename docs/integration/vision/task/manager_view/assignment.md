@@ -34,11 +34,19 @@ Managers can view the assignment details that are created such as *title, descri
    :::
 
 2. Display employee's assignment details:
-   - Total cash and coin(s) earned (**Highlighted in red**)
-   - Log file submitted
-   - Rewards earned
-
+   - Total cash and coin(s) earned 
+   - Timeline with:
+      - Log file submitted
+      - Rewards earned (Milestone rewards only entitled once log file approved)
+      - Rewards that haven't entitled yet
 ![Manager View Emp Asgmt](../../../../../static/img/integration/vision/task/mgrViewEmpAsgmt.png)
+
+:::info Info
+
+   May click on the links to view attachment in phone gallery
+
+:::
+
 
 ### Log File Submission
 
@@ -138,19 +146,14 @@ Finalising assignment is an **irreversible** action.
 The code will match with the code in the summary table.
 :::
 
-### Employee Progress
+### Employee Progress & Log File
 
 1. Press **Employee Name** (highlighted in red)
 
-![Summary Table](../../../../../static/img/integration/vision/task/summaryTable-1.png)
+   ![Summary Table](../../../../../static/img/integration/vision/task/summaryTable-1.png)
+2. Press **Progress Tracker** to view the timeline and history logs
 
-![Employee Assignment](../../../../../static/img/integration/vision/task/mgrViewEmpCompleteAsmgt.png)
-
-### Employee Log File
-
-1. Navigate to: **Employee Name** (in summary table) > **View Log File**
-
-![Log File](../../../../../static/img/integration/vision/task/logFile.png)
+   ![Employee Assignment](../../../../../static/img/integration/vision/task/mgrViewEmpCompleteAsmgt.png)
 
 ### Tooltip Reward
 

@@ -43,24 +43,32 @@ Users can view the reward for each milestone and become entitled to it once the 
 ![Pending](../../../../../static/img/integration/vision/task/pending.png)
 Indicates the log file is in **Pending** status
 
-![Approved](../../../../../static/img/integration/vision/task/approve.png)
-Indicates the log file is in **Approved** status
-
 ![Progress Tracker](../../../../../static/img/integration/vision/task/progressTracker.png)
 
 ### Update Log File
 
 1. Press **Update Log File**
    - Allows user to create a new log file, fill in the details, and submit it by clicking **Submit** button.
-   - Users **must** fill in all the details.
-   - Submitted log file cannot be **edited**.
-   - Users are unable to **submit** log file **before** manager **approves** the previous one.
+   - Required to fill in all fields with optional to add attachment.
 
-![Update Log File](../../../../../static/img/integration/vision/task/updateLogFile.png)
+   ![Update Log File](../../../../../static/img/integration/vision/task/updateLogFile.png)
 
+:::info Info
+May submit various attachments (e.g. png, pdf)
+![Add attachments](../../../../../static/img/integration/vision/task/uploadAttachment.png)
+
+Note: If you meet this error `Missing Drive Link...` may check [FAQ: Missing Drive Link](../../faq.md#error-missing-drive-link-detected)
+:::
+
+:::warning Alert
+
+- Submitted log file cannot be **edited**.
+- Users are unable to **submit** log file **before** manager **approves** the previous one.
+
+:::
 ### Submission Bonus Request
 
-1. This form is only available when the log file submission is **100%**.
+1. This form only appears when the log file submission is **100%**.
 2. Users are allowed to submit bonus request by selecting the bonus criteria and add on remark.
 
 :::warning Alert

@@ -61,7 +61,7 @@ Team option is not available for quests.
 
 :::
 
-:::tip Tips to create a Team Target Mission
+<!-- :::tip Tips to create a Team Target Mission
 
 To set up a team target, create two identical missions: one with the **Individual** setting and the other with the **Team** setting.
 
@@ -69,6 +69,50 @@ To set up a team target, create two identical missions: one with the **Individua
 
 2. The team leader’s target will now reflect the collective achievements of the entire team and include a unique reward, while each member will have their own individual targets and rewards!
 
+::: -->
+:::tip Tips for Creating Team Target Missions
+
+Below are two recommended approaches for setting up team-based targets depending on how rewards should be distributed.
+
+---
+
+**1. Team Target Mission (Leader-Only Reward)**
+
+This method allows the **team leader to receive a reward based on the collective performance of the team**, while team members work toward their own individual targets.
+
+**Steps:**
+
+1. Create two identical missions:
+   - One with the **Individual** setting.
+   - One with the **Team** setting.
+
+2. Assign the team leader to the Team mission.
+
+3. Assign all team members to:
+   - The Team mission
+   - The Individual mission
+
+**Result:**
+
+- The team leader's target will reflect the combined achievements of the entire team and include a special reward.
+- Each team member will still have their own individual targets and rewards.
+
+---
+
+**2. Team Target Mission (Shared Reward)**
+
+This method allows **all members of the team to work together toward the same goal and receive the reward collectively** once the target is achieved.
+
+**Steps:**
+
+1. Create a Team mission.
+2. Assign **all members as team leaders** within the mission.
+
+**Result:**
+
+- All members contribute toward the same shared target.
+- Once the goal is achieved, everyone receives the reward.
+- This setup encourages collaboration and collective performance across the team.
 :::
 
 ### Strategy
@@ -162,7 +206,7 @@ The "Less Than and Equal" condition is applied to reward employees who achieve r
 | Properties  | Description                                                                                              |
 |-------------|----------------------------------------------------------------------------------------------------------|
 | **Target**  | Text field to input the target amount. (Note: Only the **Between** condition will have two text fields.) |
-| **Rewards** | Text field to enter the rewards available to the achievers of the particular target. There are 3 types of rewards: <br/> &nbsp;&nbsp; 1. **Percentage (%):** A percentage of the target amount awarded to the members *(e.g., 2%)*. <br/> &nbsp;&nbsp; 2. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 3. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../../gift/introduction.md). |
+| **Rewards** | Text field to enter the rewards available to the achievers of the particular target. There are 3 types of rewards: <br/> &nbsp;&nbsp; 1. **Percentage (%):** A percentage of the target amount awarded to the members *(e.g., 2%, 2.5%)*. <br/> &nbsp;&nbsp; 2. **Cash (RM):** Commission or allowance provided through the SQL Account on the payout date. <br/> &nbsp;&nbsp; 3. **Coins:** Digital coins that can be used to redeem gifts in SQL Vision via [**Gift**](../../../gift/introduction.md). |
 | **Add**     | Adds a new target along with its respective rewards.                                                     |
 | **Delete**  | Deletes a specific target and its associated rewards.                                                    |
 
