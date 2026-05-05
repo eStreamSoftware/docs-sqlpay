@@ -27,7 +27,7 @@ SQL Payroll/SQL HRMS app will prioritize claim limit set in Maintain Employee ov
 
 ![notification-settings](../../../../static/img/integration/hrms/e-claim/notification-settings.png)
 
-- ***'Send EClaim Email Notification' checkbox***: Checked to allow E HRMS app to send claim email notifications to managers
+- **_'Send EClaim Email Notification' checkbox_**: Checked to allow E HRMS app to send claim email notifications to managers
 
 ## Manager Authority Settings
 

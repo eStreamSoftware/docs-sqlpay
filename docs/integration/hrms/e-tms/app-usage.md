@@ -1,5 +1,5 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 title: App Usage
 description: An E TMS features in SQL HRMS app guide
 ---
@@ -31,8 +31,10 @@ Enable **Autostart** for SQL HRMS to ensure E TMS features work accordingly (ref
 | ![clock-button2](../../../../static/img/integration/hrms/e-tms/clock-button2.png) | SQL HRMS app is trying to get user's current location                                                                                                                                                                                                                                  |
 | ![clock-button3](../../../../static/img/integration/hrms/e-tms/clock-button3.png) | User is not within work location. However, if user is really within their work location, SQL HRMS app will continuously try to get a more accurate position so that user will be able to Clock In / Clock Out                                                                          |
 | ![clock-button4](../../../../static/img/integration/hrms/e-tms/clock-button4.png) | User's location is mocked and is not allowed to Clock In / Out                                                                                                                                                                                                                         |
-| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User is within work location and is allowed to Clock In                                                                                                                                                                                                                                |
-| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User is within work location and is allowed to Clock Out                                                                                                                                                                                                                               |
+| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User is required to take a site photo                                                                                                                                                                                                                                                  |
+| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | The photo uploaded by user is no longer valid. User will need to delete and reupload a new photo. The valid duration is 2 mins                                                                                                                                                         |
+| ![clock-button7](../../../../static/img/integration/hrms/e-tms/clock-button7.png) | User is within work location and is allowed to Clock In                                                                                                                                                                                                                                |
+| ![clock-button8](../../../../static/img/integration/hrms/e-tms/clock-button8.png) | User is within work location and is allowed to Clock Out                                                                                                                                                                                                                               |
 
 **Clock In:**
 
@@ -65,9 +67,9 @@ If user forget to clock out, the app will reset the time tracking after 10 hours
 
 | **Button**                                                                        | **Explanation**                                                                                                                                                                                                                                                                                                              |
 | :-------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ![clock-button7](../../../../static/img/integration/hrms/e-tms/clock-button7.png) | SQL HRMS app's Bluetooth service is unable to start. This may due to the following reasons: <br/><br/> 1. User's Bluetooth service is not enabled <br/> 2. The required nearby devices permission is not allowed <br/><br/> Refer [Bluetooth Service and Nearby Devices Permission](../permission#nearby-devices--bluetooth) |
-| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User is allowed to Clock In                                                                                                                                                                                                                                                                                                  |
-| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User is allowed to Clock Out                                                                                                                                                                                                                                                                                                 |
+| ![clock-button9](../../../../static/img/integration/hrms/e-tms/clock-button9.png) | SQL HRMS app's Bluetooth service is unable to start. This may due to the following reasons: <br/><br/> 1. User's Bluetooth service is not enabled <br/> 2. The required nearby devices permission is not allowed <br/><br/> Refer [Bluetooth Service and Nearby Devices Permission](../permission#nearby-devices--bluetooth) |
+| ![clock-button7](../../../../static/img/integration/hrms/e-tms/clock-button7.png) | User is allowed to Clock In                                                                                                                                                                                                                                                                                                  |
+| ![clock-button8](../../../../static/img/integration/hrms/e-tms/clock-button8.png) | User is allowed to Clock Out                                                                                                                                                                                                                                                                                                 |
 
 **Clock In:**
 
@@ -82,7 +84,9 @@ If user forget to clock out, the app will reset the time tracking after 10 hours
 
     ![clock-out4](../../../../static/img/integration/hrms/e-tms/clock-out4.png)
 
-    - If **_'Claim OT' switch_** is turned on, it will go through similar OT validations as _By GPS_ before QR Code is generated
+    - **_'Claim As Leave' switch_** follows the same flow as _By GPS_ and user will receive the below message instead
+
+      ![clock-out5](../../../../static/img/integration/hrms/e-tms/clock-out5.png)
 
 :::warning
 Screenshotting the QR Code is not allowed!
@@ -218,8 +222,8 @@ Managers are allowed to clock in on behalf for his team by tapping on the **_'Cl
 | ![clock-button1](../../../../static/img/integration/hrms/e-tms/clock-button1.png) | SQL HRMS app's location service is unable to start. This may due to the following reasons: <br/><br/> 1. User's device GPS is not enabled <br/> 2. The required location permission is not allowed <br/><br/> Refer [Location Service and Permission](../permission.md#location) |
 | ![clock-button2](../../../../static/img/integration/hrms/e-tms/clock-button2.png) | SQL HRMS app is trying to get user's current location                                                                                                                                                                                                                            |
 | ![clock-button4](../../../../static/img/integration/hrms/e-tms/clock-button4.png) | User's location is mocked and is not allowed to Clock In / Out                                                                                                                                                                                                                   |
-| ![clock-button5](../../../../static/img/integration/hrms/e-tms/clock-button5.png) | User's location is detected and is allowed to Clock In                                                                                                                                                                                                                           |
-| ![clock-button6](../../../../static/img/integration/hrms/e-tms/clock-button6.png) | User's location is detected and is allowed to Clock Out                                                                                                                                                                                                                          |
+| ![clock-button7](../../../../static/img/integration/hrms/e-tms/clock-button7.png) | User's location is detected and is allowed to Clock In                                                                                                                                                                                                                           |
+| ![clock-button8](../../../../static/img/integration/hrms/e-tms/clock-button8.png) | User's location is detected and is allowed to Clock Out                                                                                                                                                                                                                          |
 
 - Manager's location will be captured when help to clock on behalf
 - Manager can adjust the employee's clocking time and checked **_'Claim OT'_** or **_'Claim As Leave'_** if needed

@@ -96,7 +96,7 @@ User can view their company's announcement
   ![announcement2](../../../../static/img/integration/hrms/e-payroll/announcement2.png)
 
 :::info
-Enable **Autostart** for SQL HRMS to ensure Announcement features work accordingly (refer [Autostart](../autostart.md))
+For **Android** user, enable **Autostart** for SQL HRMS to ensure Announcement features work accordingly (refer [Autostart](../autostart.md))
 :::
 
 ### Company Profile

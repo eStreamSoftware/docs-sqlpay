@@ -1,5 +1,5 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 title: Sync Cloud
 description: An E TMS sync cloud guide in SQL Payroll
 ---
@@ -33,8 +33,25 @@ This dialog box will only prompt if there are any incomplete log pairs (missing 
 
 - The logs are grouped by the date and employee with alternating **green** and **white** highlights
 - **Green cells:** Missing time which needs to be filled in
-- Editable columns: - Clock In - Clock Out - Is OT - Break Time
+- Editable columns: 
+  - Clock In 
+  - Clock Out 
+  - Is OT 
+  - Break Time
 - **_'Recalculate' button_** will enabled once changes are made to perform recalculation on the attendance logs
+- **Batch Edit:** _Ctrl_ + select the rows you want to edit then right click and select _Batch Edit_
+  - Note that you can only select records with missing clock in / clock out time and only either one at a time
+  - Supported column: Clock In / Clock Out (depends on the type of record selected)
+  
+    ![log-error](../../../../static/img/integration/hrms/e-tms/batch-edit-error-log.png)
+    
+    - The date will automatically follow the record's date
+    - If the time belongs to the next day, then you'll need to check the _'Overnight' checkbox_
+
+      | **Selected Record Dates** |  **Overnight** | **Result**                               |
+      | :------------------------ | :------------- | :--------------------------------------- |
+      | 2/4/2025<br/>31/7/2025    | Not Checked    | 2/4/2025 06:00 PM<br/>31/7/2025 06:00 PM |
+      | 3/4/2025                  | Checked        | 4/4/2025 06:00 PM                        |
 
 ## Log
 
@@ -58,15 +75,23 @@ User can click on the **_'Map' button_** in tab to show the employee's log locat
 
 ### Edit Mode
 
-1. Right-click on the grid, select "Edit"
+Right-click on the grid, select "Edit"
 
     ![log-edit-mode](../../../../static/img/integration/hrms/e-tms/log-edit-mode.png)
 
 - The logs are grouped by the date and employee with alternating **green** and **white** highlights
-- Editable columns: - Clock In - Clock Out - Is OT - Break Time
+- Editable columns: 
+  - Clock In 
+  - Clock Out 
+  - Is OT 
+  - Break Time
 - **_'Recalculate' button_** will enabled once changes are made to perform recalculation on the attendance logs
 - The **_'Work Duration'_** calculated after the log is adjusted is the difference between the **_'Adjusted Clock Out'_** and **_'Adjusted Clock In'_**
   - An accurate **_'Work Duration'_** will be calculated after the **_'Recalculate' button_** is clicked
+- **Batch Edit:** _Ctrl_ + select the rows you want to edit then right click and select _Batch Edit_
+  - Supported columns:
+    - Is OT
+    - Break Time
 
 ## OT
 
@@ -74,26 +99,23 @@ User can click on the **_'Map' button_** in tab to show the employee's log locat
 
 - Editable columns:
   - Post Date
+  - Remark
+  - Break Time
+  - Claimable
   - Action:
     - Unassigned
     - Overtime: Record will be posted to Pending Overtime
     - Cancelled: Record will be ignored
-- **Red highlight:** Not all the nested records are assigned with an OT code (won't be posted to pending)
-- **Green highlight:** All the nested records are assigned with an OT code
-- **_'Show Log' button_** is to show all employee's attendance logs on that date
-
-### Edit Mode
-
-1. Right-click on the grid, select "Edit"
-
-    ![ot-edit-mode](../../../../static/img/integration/hrms/e-tms/ot-edit-mode.png)
-
-- Editable columns:
-  - Remark
-  - Claimable
-  - Break Time
   - OT Code
-- **_'Save' button_** will enabled once changes are made
+- **_'Show Log' button_** is to show all employee's attendance logs on that date
+- **Batch Edit:** _Ctrl_ + select the rows you want to edit then right click and select _Batch Edit_
+  - Supported columns:
+    - Post Date
+    - Remark
+    - Break Time
+    - Claimable
+    - Action
+    - OT Code
 
 ## Leave
 
@@ -111,6 +133,12 @@ User can click on the **_'Map' button_** in tab to show the employee's log locat
   - Leave Type: Value changes based on chosen action
 - User need to assign a leave code in order to post it to Leave Application
 - **_'Show Log' button:_** Show all employee's logs on that date
+- **Batch Edit:** _Ctrl_ + select the rows you want to edit then right click and select _Batch Edit_
+  - Supported columns:
+    - Post Date
+    - Remark
+    - Deductible
+    - Action
 
 ## Generate Calendar Reminder
 

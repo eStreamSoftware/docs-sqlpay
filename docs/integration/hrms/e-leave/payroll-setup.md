@@ -11,8 +11,8 @@ slug: /integration/hrms/e-leave/payroll-setup
 
 ![company-profile-hrms-approval-notification](../../../../static/img/integration/hrms/e-leave/company-profile-hrms-approval-notification.png)
 
-- ***'Multi-Level Approval' checkbox***: Checked to enable multi-level approval for leave application in E HRMS app
-- ***'Send E Leave Email Notification' checkbox***: Checked to allow E HRMS app to send leave email notifications to managers 
+- **_'Multi-Level Approval' checkbox_**: Checked to enable multi-level approval for leave application in E HRMS app
+- **_'Send E Leave Email Notification' checkbox_**: Checked to allow E HRMS app to send leave email notifications to managers 
 
 ## Manager Authority Settings
 

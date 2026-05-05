@@ -129,9 +129,9 @@ Only for **Android 11 and below**
 
     ![dashboard](../../static/img/integration/clock-in/dashboard.png)
 
-    - ***'Clock In / Out'* button:** Navigate to [QR Scanner](#qr-scanner)
-    - **Gear icon (top right):** Navigate to [Settings](#settings)
-    - **Logout icon (top right):** Logout from SQL Clock In app
+    - **_'Clock In / Out' button_**: Navigate to [QR Scanner](#qr-scanner)
+    - **_Gear icon (top right)_**: Navigate to [Settings](#settings)
+    - **_Logout icon (top right)_**: Logout from SQL Clock In app
 
 ## QR Scanner
 
@@ -142,7 +142,7 @@ For employees to scan the QR Code generated from SQL HRMS app to clock in / out
     - The scanner will sleep after a duration of inactivity
     - The scanner will wake up when there's motion detected
     - The duration of inactivity and motion detection sensitivity can be adjusted in the [settings](#settings)
-    - ***Error icon*** at the top right corner will only appear when there are issues
+    - **_Error icon_** at the top right corner will only appear when there are issues
       - Tap on the icon to view what are the issues (only those with issues will appear)
 
 | **Issue**                | **Explanation**                                                                                                                                                                                                     |
@@ -160,6 +160,7 @@ For employees to scan the QR Code generated from SQL HRMS app to clock in / out
 | ![dialog5](../../static/img/integration/clock-in/dialog5.png) | 1. Employee's Bluetooth service is not turned on <br/> 2. Employee's required _Nearby Devices_ permission is not allowed <br/> 3. Employee is not near the scanner <br/> 3. Scanner's Bluetooth service or Location service is not turned on <br/> 4. Scanner's required _Nearby Devices_ or _Location_ permission is not allowed <br/><br/> For SQL HRMS, refer [bluetooth service and nearby devices permission](hrms/permission/#nearby-devices--bluetooth) <br/> For SQL Clock In, refer [location service and permission](#location) and [bluetooth service and nearby devices permission](#nearby-devices-bluetooth) |
 | ![dialog6](../../static/img/integration/clock-in/dialog6.png) | Employee has successfully clocked in                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 | ![dialog7](../../static/img/integration/clock-in/dialog7.png) | Employee has successfully clocked out                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
+| ![dialog8](../../static/img/integration/clock-in/dialog8.png) | Employee has successfully clocked out and claim replacement leave                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
 
 ## Settings
 

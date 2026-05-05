@@ -88,6 +88,7 @@ For more Public Holiday options, user may click on the **_'≣'_** on the grid t
 
    - Only one clock method can be selected. However, if none of the clock method is selected, then the clock in / out button in SQL HRMS app will be disabled and employee does not require to clock in / out.
    - Clock Method on days without work session, public holiday and rest day is by default **GPS**. User may update to their desire clock method in [Maintain Calendar](#maintain-calendar).
+   - If **QR** is selected, the clock in / out location will follow the coordinate of the branch set in [Maintain Branch](#maintain-branch).
 
    :::
 

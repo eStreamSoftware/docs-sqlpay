@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 4
 title: Payroll Report
 description: An E TMS report guide in SQL Payroll
 ---
@@ -14,12 +14,12 @@ description: An E TMS report guide in SQL Payroll
     - Daily View
     - Weekly View
     - Monthly View
-    - **Red box:** Public holiday
-    - **Orange box:** Rest day
-    - **Blank:** No session assigned
-    - **Others:** Work day with session (font color based on settings in Maintain Session)
-    - ***'Create Schedule' button***: Direct user to Maintain Calendar
-    - ***'Today' button:*** Focus on today's date if within date range
+    - **Red box**: Public holiday
+    - **Orange box**: Rest day
+    - **Blank**: No session assigned
+    - **Others**: Work day with session (font color based on settings in Maintain Session)
+    - **_'Create Schedule' button_**: Direct user to Maintain Calendar
+    - **_'Today' button**: Focus on today's date if within date range
 
 ## Time Attendance Summary
 
@@ -28,9 +28,9 @@ description: An E TMS report guide in SQL Payroll
     ![time-attendance-summary](../../../../static/img/integration/hrms/e-tms/time-attendance-summary.png)
 
     - Shows all log pairs processed in Sync Cloud
-    - **'*' symbol:** Adjusted log
-    - ***'(by mgr)' label:***  Log is clocked by manager through SQL HRMS app
-    - **'-' symbol:** Employee do not have any clock in/clock out records for that session
+    - **_'*' symbol_**: Adjusted log
+    - **_'(by mgr)' label_**: Log is clocked by manager through SQL HRMS app
+    - **_'-' symbol_**: Employee do not have any clock in/clock out records for that session
     - Overtime pairs will only list those OT records that has been confirm by HR and posted to Pending Overtime with claimable more than 0
 
 ### Attendance Reward
@@ -41,8 +41,8 @@ description: An E TMS report guide in SQL Payroll
     - Employee who are entitled to **Attendance Reward** (set in [Maintain Employee](payroll-setup.md#maintain-employee)) and fulfilled the conditions will be listed
     - Once **'Save'**, the reward will be posted to Pending Allowance
 
-2. Select an Allowance Code and save
-3. Navigate to Payroll > Open Pending Payroll…,click on "Allowance"
+2. Select an Allowance Code and a Deduction Code and save
+3. Navigate to Payroll > Open Pending Payroll…, click on "Allowance" / "Deduction"
 
     ![attendance-reward2](../../../../static/img/integration/hrms/e-tms/attendance-reward2.png)
 
