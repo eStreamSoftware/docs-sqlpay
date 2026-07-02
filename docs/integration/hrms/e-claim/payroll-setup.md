@@ -8,6 +8,7 @@ description: An E Claim setup guide in SQL Payroll
 
 1. Navigate to Payroll > Maintenance > Maintain Claim…, select a Claim or Create New
 2. Set Yearly Limit and Monthly Limit
+3. Set UOM and Rate (for Mileage Claim)
 
     Option 1: Maintain Claim
 
