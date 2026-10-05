@@ -190,7 +190,7 @@ Ensure **Brought Forward (BF)** is checked in **Maintain Leave Type**.
 
     ![enable-bf-leave-2](../../../static/img/usage/leave-module/enable-bf-leave-2.png)
 
-Ensure there is a calculation for the amount of leave brought forward in **Maintain Leave Group**.
+    Ensure there is a calculation for the amount of leave brought forward in **Maintain Leave Group**.
 
 2. Go to **Leave** > **Maintain Leave Group**
     ![maintain-leave-group](../../../static/img/usage/leave-module/maintain-leave-group.png)
@@ -213,7 +213,8 @@ Ensure there is a calculation for the amount of leave brought forward in **Maint
     <details>
     <summary>Standard vs Custom Calculation</summary>
 
-    #### Standard Calculation
+    **Standard Calculation**
+
     An easy-to-use interface that allows users to configure BF Leave, including setting a fixed
     maximum number of carry-forward days and defining a special expiry date by which the BF
     leave must be utilized.
@@ -228,7 +229,8 @@ Ensure there is a calculation for the amount of leave brought forward in **Maint
         For this sample : Leave Expiry Date - 31/03, Leave Forfeit - 01/04
         > Tips: If you do not have Bring Forward leave with an expiry date, you may ignore this step.
 
-    #### Custom Calculation
+    **Custom Calculation**
+
     Extensive BF leave calculation logic is implemented through scripting and is generally
     developed by a programmer.
 
@@ -237,7 +239,8 @@ Ensure there is a calculation for the amount of leave brought forward in **Maint
 
     </details>
 
-### Process B/F Leave & Forfeit    
+### Process B/F Leave & Forfeit
+
 1. Go to leave entitlement (refer to [Leave Entitlement Processor](#leave-entitlement-processor)).
     ![bf-leave-entitlement-process-1](../../../static/img/usage/leave-module/bf-leave-entitlement-process-1.png)
 
@@ -251,7 +254,7 @@ Ensure there is a calculation for the amount of leave brought forward in **Maint
     - **BF Ori**: Original brought-forward leave from last year
     - **BF Forfeit**: Unused B/F leave forfeited after expiry
     - **BF**: Remaining B/F balance after forfeiture
-    
+
     ![bf-leave-entitlement-process-4](../../../static/img/usage/leave-module/bf-leave-entitlement-process-4.png)
 
 5. **Right click** and choose **Select All**, or use **Ctrl+A** to select all employees
