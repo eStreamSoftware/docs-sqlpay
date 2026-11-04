@@ -360,6 +360,180 @@ Used to create, manage, and distribute company-wide or employee-specific announc
 | Category   | The classification or type of announcement (e.g., General, System Update, Event). |
 | Remark     | Additional notes or comments related to the announcement.                         |
 
+## Contract Stamp Duty
+
+Stamp duty is a tax imposed on certain legal documents to make them officially recognized for legal purposes. In Malaysia, employment agreements are considered a type of agreement document that may require stamping under the Stamp Act 1949.
+
+Once stamped, the contract can be used as legal evidence in court if disputes arise.
+
+#### Key Details for 2025-2026
+
+1. **Contracts Signed Before 1 Jan 2025**
+   - Exempt from stamp duty
+   - Late stamping penalties are also waived
+2. **Contracts Signed Between 1 Jan 2025 – 31 Dec 2025**
+   - Stamp duty is still required (RM10 per contract)
+   - Late stamping penalties are waived if the contract is stamped on or before 31 Dec 2025
+3. **Contracts Signed From 1 Jan 2026 Onwards**
+   - Stamp duty applies (RM10 per contract)
+   - Must be stamped within the stipulated period
+   - Late stamping penalties will be enforced
+
+For employment agreements, stamp duty is generally:
+
+- RM10 per copy of the agreement
+
+Each stamped copy is treated as a separate document.
+
+Stamp duty should be paid:
+
+- Within 30 days after the agreement is signed in Malaysia, or
+- Within 30 days after the document is received in Malaysia if signed overseas.
+
+Stamp duty can be submitted through the STAMP system managed by Lembaga Hasil Dalam Negeri Malaysia (LHDN).
+
+Submission methods include:
+
+- Online via STAMP system (e-Stamp Duty)
+- Physical submission at LHDN stamp duty offices
+
+#### Stamp Duty Late Penalty
+
+If a document is not stamped within the stipulated period, the following penalties may apply:
+
+| Delay Period | Penalty |
+| --- | --- |
+| Within 3 months after the due date | RM50.00 or 10% of the deficient duty, whichever is higher |
+| More than 3 months after the due date | RM100.00 or 20% of the deficient duty, whichever is higher |
+
+The Stamp Duty function is available from SQL version 296.236 onwards.
+
+### Mandatory Fields Before Stamp Duty
+
+Fill in the mandatory information below before processing the stamp duty.
+
+1. Company Profile - File | Company Profile
+
+   ![Company Profile fields for contract stamp duty](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-company-profile.png)
+
+2. Employee Profile - Human Resources | Maintain Employee
+
+   ![Employee Profile fields for contract stamp duty](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-employee-profile.png)
+
+Once done filling all the information above, you can start creating the Contract Stamp Duty in SQL Payroll.
+
+### Steps to Generate Stamp Duty
+
+1. Go to Human Resource | Contract Stamp Duty
+
+   ![Navigate to Contract Stamp Duty](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-navigate.png)
+
+2. Click New to create a contract for the newly joined staff
+
+   ![Create a new contract stamp duty record](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-new.png)
+
+3. Select the Employee Code
+
+   ![Select the employee code](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-select-employee.png)
+
+4. Enter the Contract Date, Title, Details, and Salary Amount
+
+   ![Enter contract details](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-enter-details.png)
+
+5. Attach the employment contract file such as Offer Letter (must signed by the employee)
+
+   * must at least attach min 1 attachment
+
+   ![Attach the signed employment contract](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-attach-contract.png)
+
+6. Click Save to complete the entry
+
+   ![Save the contract stamp duty record](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-save.png)
+
+7. Go to Human Resource | Print Contract Stamp Duty Listing
+
+   ![Open Print Contract Stamp Duty Listing](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-print-listing.png)
+
+8. Select the Date Period and click Apply to display the records
+
+   ![Apply the date period](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-apply-period.png)
+
+8. Click the Save to File icon to download the stamp duty upload file
+
+   ![Export the stamp duty upload file](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-export-file.png)
+
+7. Once the download is completed, the system will generate an XML file for the contract stamp duty submission
+
+   ![Download the generated XML file](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-xml-download.png)
+
+   ![Generated contract stamp duty XML file](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-xml-file.png)
+
+### Stamp Duty Submission
+
+1. Login E-Stamp Duty via MyTax portal
+
+   ![Sign in to e-Stamp Duty through MyTax](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-mytax-login.png)
+
+2. Click Continue to proceed further
+
+   ![Continue in e-Stamp Duty](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-continue.png)
+
+3. Select Company Role
+
+   ![Select the company role](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-company-role.png)
+
+4. Login as your company agent
+
+   ![Sign in as the company agent](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-company-agent.png)
+
+5. Go to Borong Permohonan | Penyeteman Berkelompok
+
+   ![Open Penyeteman Berkelompok](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-borang-permohonan.png)
+
+6. Click Choose File to upload the XML file exported from SQL
+
+   ![Choose the exported XML file](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-choose-file.png)
+
+7. Once done, click Muat Naik to upload
+
+   ![Upload the XML file](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-upload.png)
+
+8. Employee list are shown as below
+
+   ![Review the employee list](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-employee-list.png)
+
+9. Fill in the information at the above and tick the agreement
+
+   ![Complete agreement details](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-agreement-details.png)
+
+10. Click Proses to continue
+
+   ![Process the submission](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-proses.png)
+
+11. Make sure the information is correct, and click Teruskan to proceed
+
+   ![Continue the submission](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-teruskan.png)
+
+12. After receiving the Batch Number for the stamping submission, wait for verification by LHDN
+
+   ![Batch number after submission](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-batch-number.png)
+
+13. Go to Senarai | Penyeteman Berkelompok
+
+14. Click the Batch Number that has not been submitted yet
+
+   ![Select an unsubmitted batch number](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-select-batch.png)
+
+15. Once the status changes to “Taksir Sendiri Duti”, the stamp duty and penalty amount will be displayed
+
+   ![Review self-assessed duty and penalty](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-self-assess.png)
+
+16. Tick the Certificate checkbox to confirm the submission
+
+   ![Confirm the submission certificate](../../../static/img/usage/human-resource/hr-setup-images/contract-stamp-duty-confirm-certificate.png)
+
+17. Proceed to make the stamp duty payment
+
 ## Print History Listing
 
 This provides a comprehensive record of all past history types for employees. You can filter, sort, and group employees using the fields below.
